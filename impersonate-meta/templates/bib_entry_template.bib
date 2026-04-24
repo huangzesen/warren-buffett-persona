@@ -1,0 +1,135 @@
+% ==========================================================================
+% BibTeX Entry Template — Best Practices for Astrophysics Citations
+% ==========================================================================
+%
+% Usage: Copy the relevant entry type below and fill in your fields.
+% Remove this header and unused entry types.
+%
+% Key conventions:
+%   1. Citekey: lastnameYYYY — lowercase, unique, mnemonic
+%      Examples: velli1989, bale2019, pucci2013, verdinigrappin2012
+%   2. Required fields vary by entry type (see each entry's note)
+%   3. Use \href{url} for DOI links when available
+%   4. Support for accented characters: {\'e}, {\`e}, {\"u}, etc.
+%   5. For preprints without journal assignment, use @misc with note
+% ==========================================================================
+
+
+% ===== @article — Journal article (most common) =====
+% Required: author, title, journal, year
+% Recommended: volume, pages, doi
+
+@article{lastnameYYYY,
+  author  = {Lastname, Firstname and Secondauthor, First and Thirdauthor, F.},
+  title   = {{Full Title of the Article with Proper Capitalization}},
+  journal = {Journal Name},
+  year    = {YYYY},
+  volume  = {NNN},
+  pages   = {XXX--YYY},
+  doi     = {10.1234/example.doi},
+  note    = {[optional: e.g., "in press"]},
+  % optional fields:
+  % number   = {N},
+  % keywords = {keyword1, keyword2},   % for filtering/sorting
+  % abstract = {Text of abstract},
+}
+
+
+% ===== @inproceedings — Conference proceedings =====
+% Required: author, title, booktitle, year
+% Recommended: publisher, pages, doi
+
+@inproceedings{lastnameYYYYproc,
+  author    = {Lastname, Firstname and Other, A.},
+  title     = {{Title of Conference Paper}},
+  booktitle = {Proceedings of the Conference Name},
+  year      = {YYYY},
+  pages     = {XXX--YYY},
+  publisher = {Publisher Name},
+  doi       = {10.1234/example.doi},
+  % organization = {Conference Organization},
+  % address      = {Location},
+}
+
+
+% ===== @incollection — Book chapter =====
+% Required: author, title, booktitle, year
+% Recommended: publisher, editor, pages, doi
+
+@incollection{lastnameYYYYchap,
+  author    = {Lastname, Firstname},
+  title     = {{Chapter Title}},
+  booktitle = {Book Title},
+  editor    = {Editor, Firstname},
+  year      = {YYYY},
+  pages     = {XXX--YYY},
+  publisher = {Publisher Name},
+  doi       = {10.1234/example.doi},
+  % address  = {City},
+  % edition  = {N},
+  % isbn     = {XXXXXXXXXXXX},
+}
+
+
+% ===== @misc — Preprints, reports, theses, informal publications =====
+% Required: author, title, year
+% Recommended: howpublished, note, doi
+
+@misc{lastnameYYYYpre,
+  author       = {Lastname, Firstname and Collaborator, B.},
+  title        = {{Title of Preprint or Report}},
+  year         = {YYYY},
+  howpublished = {arXiv:XXXX.XXXXX},
+  doi          = {10.48550/arXiv.XXXX.XXXXX},
+  note         = {[e.g., "submitted to Journal Name" or "preprint"]},
+}
+
+
+% ===== @phdthesis — Doctoral dissertation =====
+% Required: author, title, school, year
+
+@phdthesis{lastnameYYYYphd,
+  author  = {Lastname, Firstname},
+  title   = {{Title of Dissertation}},
+  school  = {University Name},
+  year    = {YYYY},
+  % address = {City},
+  % note    = {[e.g., "ProQuest document ID"]},
+}
+
+
+% ==========================================================================
+% COMMON ASTROPHYSICS JOURNALS — Abbreviations
+% ==========================================================================
+% Use these journal abbreviations consistently:
+%
+%   ApJ        — The Astrophysical Journal
+%   ApJL       — The Astrophysical Journal Letters
+%   ApJS       — The Astrophysical Journal Supplement Series
+%   A&A        — Astronomy & Astrophysics
+%   MNRAS      — Monthly Notices of the Royal Astronomical Society
+%   SoPh       — Solar Physics
+%   Space Sci Rev — Space Science Reviews
+%   JGR        — Journal of Geophysical Research: Space Physics
+%   GRL        — Geophysical Research Letters
+%   PhRvL      — Physical Review Letters
+%   PhRvE      — Physical Review E
+%   PhPl       — Physics of Plasmas
+%   JPP        — Journal of Plasma Physics
+%   NatAs      — Nature Astronomy
+%   Sci        — Science
+%   PNAS       — Proceedings of the National Academy of Sciences
+%
+% ==========================================================================
+% QUALITY CHECKS BEFORE SUBMITTING
+% ==========================================================================
+%  [ ] Citekey follows lastnameYYYY convention (unique, lowercase)
+%  [ ] Author names in consistent format (not mixing "Velli, M." and "M. Velli")
+%  [ ] Journal abbreviations match the standard list above
+%  [ ] DOI is verified (click to test)
+%  [ ] Pages are verified (not guessed)
+%  [ ] For @article: has both journal and year
+%  [ ] For preprints: has howpublished (arXiv ID) or note
+%  [ ] No placeholder text — every field is real
+%  [ ] Special characters properly escaped: {\'e}, {\`e}, {\"u}, {\~n}, {\c c}
+%  [ ] URL/DOI does NOT use % comment — use \href{url} or doi field only

@@ -1,0 +1,7 @@
+{
+  "id": "impersonate-meta",
+  "version": "1.0.0",
+  "name": "Impersonation Methodology",
+  "description": "Reusable methodology for distilling any academic or public figure into a deep persona skill via an agent network. Distilled from the Marco Velli case. Contains 5 patterns, 7 anti-patterns, 44-item close-out checklist, and self-contained primers/scripts/templates for the full workflow.",
+  "library_name": "impersonate-meta"
+}
