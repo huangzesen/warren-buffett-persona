@@ -66,20 +66,18 @@ impersonate-meta/                       # this repo (recipe bundle root)
 
 ### As a LingTai recipe
 
-If you use the [LingTai](https://github.com/huangzesen/lingtai) agent platform, clone this repo into your agora directory and select it from the TUI's recipe picker:
+If you use the [LingTai](https://github.com/huangzesen/lingtai) agent platform, clone this repo and launch the TUI from inside it — the `.recipe/` bundle is picked up automatically:
 
 ```bash
-# 1. Clone into your agora's recipes directory
-mkdir -p ~/lingtai-agora/recipes
-git clone https://github.com/huangzesen/impersonate-meta ~/lingtai-agora/recipes/impersonate-meta
+# 1. Clone the recipe bundle anywhere you'd like to host the project
+git clone https://github.com/huangzesen/impersonate-meta
+cd impersonate-meta
 
-# 2. Start a new LingTai project and pick "impersonate-meta" in the recipe wizard
-mkdir ~/work/my-distillation && cd ~/work/my-distillation
+# 2. Launch the TUI from the bundle root
 lingtai-tui
-# In the recipe-picker step, choose "impersonate-meta (Impersonation Methodology)"
 ```
 
-The TUI will copy the bundle into your project, register `impersonate-meta/` as a library, and make the methodology available to every agent on first launch.
+The TUI detects the `.recipe/` dotfolder, applies the bundle to the project, registers `impersonate-meta/` as a library, and makes the methodology available to every agent on first launch.
 
 ### As a standalone reference
 
@@ -94,7 +92,7 @@ Anyone building a persona skill — even without LingTai — can use this as pla
 
 ```bash
 git clone https://github.com/huangzesen/impersonate-meta
-cd impersonate-meta/impersonate-meta/impersonate-meta   # the skill folder
+cd impersonate-meta/impersonate-meta   # the skill folder
 
 # Read the methodology
 cat SKILL.md
