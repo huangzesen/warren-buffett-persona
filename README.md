@@ -22,26 +22,33 @@ The methodology is not a research paper about persona engineering — it is a **
 
 ## Structure
 
+This repository follows the [LingTai recipe bundle format](https://github.com/huangzesen/lingtai/blob/main/tui/internal/preset/skills/lingtai-recipe/references/recipe-format.md): a `.recipe/` dotfolder with the recipe manifest, plus a sibling library folder named `impersonate-meta` containing the skill itself.
+
 ```
-impersonate-meta/
-├── SKILL.md                    # Entry point — 5 patterns, 7 anti-patterns, close-out checklist
-├── primers/                    # How to research a person
-│   ├── research-a-person.md    #   Full research workflow (primary/secondary/tertiary sources)
-│   ├── reading-the-web.md      #   Extracting signal from web content
-│   └── online-pitfalls.md      #   6 types of LLM hallucination + 6 search traps
-├── scripts/                    # Quality automation
-│   ├── verify_citekeys.sh      #   Cross-refs citekeys between .bib and arguments
-│   ├── prune_bib.py            #   Strips unreferenced bib entries (brace-depth safe)
-│   ├── token_count.sh          #   Estimates token consumption
-│   └── three_copy_scan.sh      #   Detects drift across skill copies
-├── templates/                  # Reusable production templates
-│   ├── va_template.md          #   Blank 7-field VA claim schema
-│   ├── vm_template.md          #   Blank method card with induction guide
-│   ├── profile_skeleton.md     #   Complete 4-piece profile skeleton
-│   └── bib_entry_template.bib  #  5 entry types + journal abbreviations
-├── failure-catalog.md          # 13 real failure cases from the Velli project
-└── archive/                    # Historical versions
-    └── SKILL-v1.md             # v1.0 of this skill (3-stage pipeline design)
+impersonate-meta/                       # this repo (recipe bundle root)
+├── .recipe/
+│   └── recipe.json                     # bundle manifest
+├── README.md                           # you are here
+└── impersonate-meta/                   # the library folder
+    └── impersonate-meta/               # the skill
+        ├── SKILL.md                    # entry point — 5 patterns, 7 anti-patterns, close-out checklist
+        ├── primers/                    # how to research a person
+        │   ├── research-a-person.md    #   full research workflow (primary/secondary/tertiary sources)
+        │   ├── reading-the-web.md      #   extracting signal from web content
+        │   └── online-pitfalls.md      #   6 types of LLM hallucination + 6 search traps
+        ├── scripts/                    # quality automation
+        │   ├── verify_citekeys.sh      #   cross-refs citekeys between .bib and arguments
+        │   ├── prune_bib.py            #   strips unreferenced bib entries (brace-depth safe)
+        │   ├── token_count.sh          #   estimates token consumption
+        │   └── three_copy_scan.sh      #   detects drift across skill copies
+        ├── templates/                  # reusable production templates
+        │   ├── va_template.md          #   blank 7-field VA claim schema
+        │   ├── vm_template.md          #   blank method card with induction guide
+        │   ├── profile_skeleton.md     #   complete 4-piece profile skeleton
+        │   └── bib_entry_template.bib  #   5 entry types + journal abbreviations
+        ├── failure-catalog.md          # 13 real failure cases from the Velli project
+        └── archive/                    # historical versions
+            └── SKILL-v1.md             # v1.0 of this skill (3-stage pipeline design)
 ```
 
 ---
@@ -57,34 +64,46 @@ impersonate-meta/
 5. **Run** the close-out checklist (44 items, all verifiable by command)
 6. **Use** the `scripts/` — validate citekeys, prune bibliography, scan for drift
 
-### As a LingTai Recipe
+### As a LingTai recipe
+
+If you use the [LingTai](https://github.com/huangzesen/lingtai) agent platform, clone this repo into your agora directory and select it from the TUI's recipe picker:
 
 ```bash
-recipe apply ~/lingtai-agora/recipes/impersonate-meta/
+# 1. Clone into your agora's recipes directory
+mkdir -p ~/lingtai-agora/recipes
+git clone https://github.com/huangzesen/impersonate-meta ~/lingtai-agora/recipes/impersonate-meta
+
+# 2. Start a new LingTai project and pick "impersonate-meta" in the recipe wizard
+mkdir ~/work/my-distillation && cd ~/work/my-distillation
+lingtai-tui
+# In the recipe-picker step, choose "impersonate-meta (Impersonation Methodology)"
 ```
 
-This registers the methodology as a skill library in your LingTai network, making `primers/` and `scripts/` available to all agents.
+The TUI will copy the bundle into your project, register `impersonate-meta/` as a library, and make the methodology available to every agent on first launch.
 
-### As a Standalone Reference
+### As a standalone reference
 
-Anyone building a persona skill — even without LingTai — can:
+Anyone building a persona skill — even without LingTai — can use this as plain markdown + scripts:
 
-1. Read `primers/research-a-person.md` to plan their research
-2. Use `templates/va_template.md` to structure their first argument
-3. Run `scripts/verify_citekeys.sh` on their bibliography
-4. Check `failure-catalog.md` to avoid the mistakes we already made
+1. Read `impersonate-meta/impersonate-meta/primers/research-a-person.md` to plan research
+2. Use `impersonate-meta/impersonate-meta/templates/va_template.md` to structure your first argument
+3. Run `impersonate-meta/impersonate-meta/scripts/verify_citekeys.sh` on your bibliography
+4. Check `impersonate-meta/impersonate-meta/failure-catalog.md` to avoid mistakes already made
 
-### Quick Start
+### Quick start (bare clone)
 
 ```bash
-# 1. Read the methodology
-cat impersonate-meta/SKILL.md
+git clone https://github.com/huangzesen/impersonate-meta
+cd impersonate-meta/impersonate-meta/impersonate-meta   # the skill folder
 
-# 2. Copy the templates
-cp -r impersonate-meta/templates/ my-project/
+# Read the methodology
+cat SKILL.md
 
-# 3. Start with a research plan
-cat impersonate-meta/primers/research-a-person.md
+# Copy templates into your own project
+cp -r templates/ ~/your-project/
+
+# Read the research workflow
+cat primers/research-a-person.md
 ```
 
 ---
@@ -117,7 +136,7 @@ cat impersonate-meta/primers/research-a-person.md
 
 ## Known Case Study
 
-- **[Marco Velli persona](https://github.com/huangzesen/marco-velli)** — 105 VA claims, 10 method cards, 7 physics domains, ~3,285 bibliography entries. Built over ~2 weeks of iterative agent collaboration. This methodology is the generalization of that project.
+- **[Marco Velli persona](https://github.com/huangzesen/marco-velli)** — 105 VA claims, 10 method cards, 7 physics domains, 338 bibliography entries (77 directly cited). Built through iterative agent collaboration. This methodology is the generalization of that project.
 
 ---
 
@@ -144,4 +163,4 @@ MIT — free to use, modify, and distribute.
 ## Related
 
 - [Marco Velli persona](https://github.com/huangzesen/marco-velli) — The case study that produced this methodology
-- [LingTai TUI](https://github.com/huangzesen/lingtai-tui) — The multi-agent orchestration platform
+- [LingTai](https://github.com/huangzesen/lingtai) — The multi-agent orchestration platform (TUI + portal)
