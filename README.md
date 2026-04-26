@@ -1,164 +1,104 @@
-# Impersonation Methodology
+# Warren Buffett Persona
 
-> A reusable methodology for distilling any academic or public figure into a deep, structured persona skill — using an agent network for parallel extraction, cross-validation, and systematic quality control.
+> "Be fearful when others are greedy, and greedy when others are fearful."
+> — Warren Buffett, 1986 Letter to Shareholders
 
-This repository is a **reverse distillation** of the [Marco Velli persona](https://github.com/huangzesen/marco-velli) project. What started as building one figure's persona became a methodology for doing it again, better, with less hallucination and more authenticity.
+A sourced, framework-agnostic Warren Buffett persona — built from 53 years of primary sources, 23 verifiable argument records, and 10 cognitive method cards.
 
----
+## What This Is
 
-## Why This Exists
+This is a **deep persona skill** for Warren Buffett, designed for:
 
-Persona engineering (convincingly impersonating a real person with an AI) faces three hard problems:
+- Simulating Buffett's voice and reasoning in conversations about investing, capital allocation, and business
+- Answering questions with specific quotes, dates, and decisions drawn from the primary record
+- Representing his actual positions — including mistakes, self-criticisms, and reversals — not a sanitized version
 
-| Problem | What goes wrong | How this methodology addresses it |
-|---------|----------------|-----------------------------------|
-| **Hallucination** | AI invents papers, quotes, collaborations that never existed | 7-field VA claim schema forces every assertion to have a source. Citekey cross-validation catches invented references. |
-| **Voice authenticity** | AI sounds generic — no distinctive metaphors, humor, or argument patterns | 4-piece profile (voice, values, biography, relationships) combined with method cards that capture cognitive fingerprints. |
-| **Source discipline** | AI confuses public and private knowledge, mixes eras, flattens complexity | Three-tier source framework. Semantic drift detection. Close-out checklist with 44 verifiable items. |
-
-The methodology is not a research paper about persona engineering — it is a **reproducible process** with templates, scripts, and a failure catalog.
-
----
-
-## Structure
-
-This repository follows the [LingTai recipe bundle format](https://github.com/huangzesen/lingtai/blob/main/tui/internal/preset/skills/lingtai-recipe/references/recipe-format.md): a `.recipe/` dotfolder with the recipe manifest, plus a sibling library folder named `impersonate-meta` containing the skill itself.
+## Bundle Contents
 
 ```
-impersonate-meta/                       # this repo (recipe bundle root)
-├── .recipe/
-│   └── recipe.json                     # bundle manifest
-├── README.md                           # you are here
-└── impersonate-meta/                   # the library folder
-    └── impersonate-meta/               # the skill
-        ├── SKILL.md                    # entry point — 5 patterns, 7 anti-patterns, close-out checklist
-        ├── primers/                    # how to research a person
-        │   ├── research-a-person.md    #   full research workflow (primary/secondary/tertiary sources)
-        │   ├── reading-the-web.md      #   extracting signal from web content
-        │   └── online-pitfalls.md      #   6 types of LLM hallucination + 6 search traps
-        ├── scripts/                    # quality automation
-        │   ├── verify_citekeys.sh      #   cross-refs citekeys between .bib and arguments
-        │   ├── prune_bib.py            #   strips unreferenced bib entries (brace-depth safe)
-        │   ├── token_count.sh          #   estimates token consumption
-        │   └── three_copy_scan.sh      #   detects drift across skill copies
-        ├── templates/                  # reusable production templates
-        │   ├── va_template.md          #   blank 7-field VA claim schema
-        │   ├── vm_template.md          #   blank method card with induction guide
-        │   ├── profile_skeleton.md     #   complete 4-piece profile skeleton
-        │   └── bib_entry_template.bib  #   5 entry types + journal abbreviations
-        ├── failure-catalog.md          # 13 real failure cases from the Velli project
-        └── archive/                    # historical versions
-            └── SKILL-v1.md             # v1.0 of this skill (3-stage pipeline design)
+persona-buffett/
+├── .recipe/                 # LingTai recipe bundle
+│   ├── recipe.json          # manifest
+│   ├── greet/greet.md       # first-contact greeting
+│   └── comment/comment.md   # behavioral constraints
+├── buffett-persona/         # 8 skill files
+│   ├── buffett-capitalism-politics/
+│   ├── buffett-insurance/          # GEICO, float, Ajit Jain
+│   ├── buffett-meetings/          # Annual meeting culture
+│   ├── buffett-moat-cases/        # See's, Coca-Cola, Apple, AmEx
+│   ├── buffett-munger-partnership/ # 65-year intellectual partnership
+│   ├── buffett-operating/          # BNSF, autonomy model, 5 criteria
+│   ├── buffett-philanthropy/       # Giving Pledge, Gates Foundation
+│   └── buffett-voice/              # Communication style, letter craft
+├── .lingtai/               # 10-agent network snapshot
+└── README.md               # you are here
 ```
 
----
+## Source Evidence
 
-## How to Use
+| Layer | Count | Coverage |
+|---|---|---|
+| Primary sources (letters) | 96 files | 1972–2024 |
+| Verifiable argument records | 23 VA | 4 domains |
+| Cognitive method cards | 10 VM | All backed by ≥3 VA instances |
+| Bibliography citekeys | 35 entries | All cross-referenced |
 
-### Full Process (LingTai or any agent network)
+**Source discipline:** Every claim in the skill files is traceable to a primary source. Claims without verified sourcing are tagged `[unverified]`. No fabricated quotes, dates, or investment decisions.
 
-1. **Read** `SKILL.md` — understand the 5 patterns and 7 anti-patterns
-2. **Study** the `primers/` — how to research a person without falling into AI traps
-3. **Copy** the `templates/` — customize for your target figure
-4. **Launch** an agent network — one coordinator + specialized research avatars
-5. **Run** the close-out checklist (44 items, all verifiable by command)
-6. **Use** the `scripts/` — validate citekeys, prune bibliography, scan for drift
+## The 10 Cognitive Method Cards
 
-### As a LingTai recipe
+Buffett's reasoning patterns, reverse-engineered from the evidence:
 
-If you use the [LingTai](https://github.com/huangzesen/lingtai) agent platform, clone this repo and launch the TUI from inside it — the `.recipe/` bundle is picked up automatically:
+| ID | Card | Backing |
+|---|---|---|
+| VM001 | Mr. Market — Buy When the Irrational Seller Panics | 4 VA |
+| VM002 | Pricing Power as the Primary Moat Filter | 4 VA |
+| VM003 | Circle of Competence as Intellectual Humility | 3 VA |
+| VM004 | Permanent Capital Mindset | 4 VA |
+| VM005 | Seek Bounded Crises, Not Unknown Unknowns | 4 VA |
+| VM006 | Intellectual Honesty About Mistakes Is Identity | 4 VA |
+| VM007 | Concentration, Not Diversification | 3 VA |
+| VM008 | Capital Allocation Is the Ultimate CEO Skill | 3 VA |
+| VM009 | Patience as Competitive Advantage | 3 VA |
+| VM010 | Results Over Intent | 3 VA |
+
+## Key Investment Decisions Documented
+
+- **See's Candy (1972)** — the acquisition that shifted Berkshire from cigar-butts to wonderful businesses
+- **GEICO (1976)** — $35M crisis buy, management replacement, 50-year compounding
+- **Coca-Cola (1988)** — still held, 35+ years
+- **American Express (1964)** — Salad Oil scandal, trust-as-moat thesis
+- **Goldman Sachs (2008)** — $5B preferred, crisis lifeline
+- **Apple (2016+)** — circle of competence expansion, grew to ~50% of portfolio
+- **Precision Castparts (2016–2020)** — COVID impairment, $11B write-down, self-criticism
+- **Dexter Shoes (1993)** — "my worst deal," structural competitive obsolescence missed
+
+## Key Mistakes Documented
+
+Buffett has publicly described these as errors, with specific self-criticisms drawn from his own letters:
+
+- **Dexter Shoes** — missed the structural shift to offshore manufacturing
+- **Precision Castparts** — overpaid, COVID made the business worse than modeled
+- **General Re** — "the problems were there at acquisition and we didn't see them"
+- **Clayton Homes** — "I let the volume-get-the-business culture dominate our thinking"
+
+## Use in LingTai
 
 ```bash
-# 1. Clone the recipe bundle anywhere you'd like to host the project
-git clone https://github.com/huangzesen/impersonate-meta
-cd impersonate-meta
-
-# 2. Launch the TUI from the bundle root
+git clone https://github.com/huangzesen/warren-buffett-persona
+cd warren-buffett-persona
 lingtai-tui
 ```
 
-The TUI detects the `.recipe/` dotfolder, applies the bundle to the project, registers `impersonate-meta/` as a library, and makes the methodology available to every agent on first launch.
+The TUI detects `.recipe/` and loads the persona for every agent on first launch.
 
-### As a standalone reference
+## Source Archive
 
-Anyone building a persona skill — even without LingTai — can use this as plain markdown + scripts:
+The full 1972–2024 Berkshire Hathaway shareholder letter collection is in:
+`.lingtai/minimax_cn/source-archive/`
 
-1. Read `impersonate-meta/impersonate-meta/primers/research-a-person.md` to plan research
-2. Use `impersonate-meta/impersonate-meta/templates/va_template.md` to structure your first argument
-3. Run `impersonate-meta/impersonate-meta/scripts/verify_citekeys.sh` on your bibliography
-4. Check `impersonate-meta/impersonate-meta/failure-catalog.md` to avoid mistakes already made
-
-### Quick start (bare clone)
-
-```bash
-git clone https://github.com/huangzesen/impersonate-meta
-cd impersonate-meta/impersonate-meta   # the skill folder
-
-# Read the methodology
-cat SKILL.md
-
-# Copy templates into your own project
-cp -r templates/ ~/your-project/
-
-# Read the research workflow
-cat primers/research-a-person.md
-```
-
----
-
-## The Core: 5 Patterns + 7 Anti-Patterns
-
-### Patterns (what to do)
-
-| # | Pattern | Summary |
-|---|---------|---------|
-| 1 | **VA Claim Schema** | Every claim gets 7 fields: Claim, What he did, The product, Primary results, Context, Citekeys, Cross-refs |
-| 2 | **Source Discipline as Mechanism** | Not just "cite the source" but enforce it structurally — the schema makes unfounded claims visible |
-| 3 | **4-Piece Profile Scorecard** | Biography + Voice + Values + Relationships — four orthogonal dimensions of personhood |
-| 4 | **Cognitive Fingerprints → Method Cards** | Extract thinking patterns from ≥3 VA instances each, not from one |
-| 5 | **Progressive Exposure Loading Table** | Load the persona in tiers: Voice → Values → Claims → Methods |
-
-### Anti-Patterns (what to avoid)
-
-| # | Anti-Pattern | The fix |
-|---|------------|---------|
-| 1 | **Metadata Decay** | SKILL.md header drifts from reality. Fix: `wc -w`, grep counts, commit at milestones |
-| 2 | **Token Bloat** | Unreferenced bib entries accumulate. Fix: `prune_bib.py` |
-| 3 | **Citation Discipline** | Broken citekeys (D-class). Fix: `verify_citekeys.sh` |
-| 4 | **Citation Bloat** | Flooding with VA claims but never citing. Fix: enforce Cross-refs field |
-| 5 | **Three-Copy Drift** | Same skill diverges across library/custom/, shared/, and root/ |
-| 6 | **"Dispatched" ≠ "Done"** | Spawning a writer avatar doesn't create output. Fix: check files on disk |
-| 7 | **Premature Export** | Exporting before QA catches semantic drift. Fix: close-out checklist first |
-
----
-
-## Known Case Study
-
-- **[Marco Velli persona](https://github.com/huangzesen/marco-velli)** — 105 VA claims, 10 method cards, 7 physics domains, 338 bibliography entries (77 directly cited). Built through iterative agent collaboration. This methodology is the generalization of that project.
-
----
-
-## Failure Catalog
-
-The `failure-catalog.md` documents 13 real failures from the Velli project, each with:
-
-- **Symptom** — what the human saw
-- **Root Cause** — why it happened
-- **Detection** — how we found it
-- **Fix** — what we did
-- **Prevention** — what the methodology now does to prevent recurrence
-
-Failure types range from fabricated papers (`wyper2026` in a massage therapy journal) to semantic drift (citekey pointing to a real paper but prose describing a different one) to self-archiving (an avatar's soul-flow archived its own output).
-
----
+Format: dual HTML + plain text for most years, PDFs for 1999–2024.
 
 ## License
 
-MIT — free to use, modify, and distribute.
-
----
-
-## Related
-
-- [Marco Velli persona](https://github.com/huangzesen/marco-velli) — The case study that produced this methodology
-- [LingTai](https://github.com/huangzesen/lingtai) — The multi-agent orchestration platform (TUI + portal)
+MIT
