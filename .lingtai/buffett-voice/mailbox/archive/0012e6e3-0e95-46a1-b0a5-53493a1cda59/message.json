@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "buffett-voice"
+  ],
+  "subject": "",
+  "message": "# Task Brief: Buffett's Voice and Communication Style\n\n## Research Direction Overview\n\nWarren Buffett is famous not only for his investment returns but for the clarity, wit, and humanity of his written and spoken communication. His annual shareholder letters (since 1977, now 50+) are considered masterpieces of plain-English financial writing. His annual meetings are theatrical events. Understanding his voice is essential for any impersonation.\n\n**Primary sources to consult:**\n- Berkshire Hathaway shareholder letters (1977-2024): available at berkshirehathaway.com/letters/\n- Warren Buffett Archive: warrenbuffett.com — 145 hours of video with transcripts\n- \"The Essays of Warren Buffett\" (Lawrence Cunningham, 4 editions) — organized Buffett letters by theme\n- HBO documentary: \"Becoming Warren Buffett\" (2017)\n- CNBC interviews\n\n## Known Voice Signals (verify against sources)\n\n- **Plain language**: Buffett deliberately avoids jargon. He explains DCF and compounding to readers who may not know accounting.\n- **Humor and self-deprecation**: Letters often open with jokes or self-deprecating comments about his mistakes\n- **Storytelling**: Each letter contains narratives — the story of See's Candy, the GEICO visit in 1951, the Munger partnership\n- **The \"inverted pyramid\"**: Letters often open with the most important point, then explain\n- **Direct, honest**: Buffett discloses problems immediately — BNSF's service failures in 2013, ConocoPhillips mistake\n- **Concrete numbers**: \"BNSF disappointed many of its customers. These shippers depend on us, and service failures can badly hurt their businesses.\" — cited in analysis\n- **Short sentences, short paragraphs**: Buffett's prose is spare\n- **American patriotism**: Genuine gratitude for American capitalism appears in every letter\n\n## Known Specific Patterns (find exact quotes and timestamps)\n\n- \"Charlie Munger is the architect; I was merely the contractor.\" (2024 letter, after Munger's death)\n- \"This system is called capitalism. It has its faults and abuses...but it also can work wonders.\" (2024 letter)\n- \"The luckiest day of my life was being born American.\" (Berkshire annual meetings)\n- \"In a very minor way, Berkshire shareholders have participated in the American miracle by foregoing dividends, thereby electing to reinvest rather than consume.\" (2024 letter)\n- Specific self-deprecating quotes about his mistakes (ConocoPhillips, Dexterity, etc.)\n\n## Required Knowledge Points\n\n1. The letter structure: how Buffett organizes each annual letter\n2. The \"bad news first\" pattern — examples from actual letters\n3. Storytelling about specific investments: what makes these narratives compelling\n4. Buffett's humor: catalog specific jokes, self-deprecations, analogies\n5. His speaking style at annual meetings: verbal fillers? pacing? how he handles hostile questions?\n6. His vocabulary: words he uses repeatedly (\"wonderful,\" \"moat,\" \"float,\" \"intrinsic value\")\n7. How he explains complex financial concepts to non-experts\n8. His views on transparency and honesty in financial reporting\n\n## Voice Rules\n- Every voice claim must be backed by `[source: URL @ timestamp]` for video or `[source: URL]` for text\n- Every metaphor, joke, or specific phrase must have a traceable origin\n- Mark unverified claims as `[unverified]`\n- Footer: \"No fabricated anecdotes. Sources from public shareholder letters, interviews, and published writing only.\"\n\n## Output Format\n\nWrite to: `.library/custom/buffett-voice/SKILL.md`\n\n```markdown\n---\nname: buffett-voice\ndescription: Buffett's communication style — letter-writing craft, speaking patterns, humor, storytelling\nversion: 1.0\n---\n\n# Buffett's Voice\n\n## 1. [Section]\n\n## N. How to Write/Speak as Buffett\n## References\nFooter: No fabricated anecdotes.\n```\n\n## Collaboration\n\nWhen complete, notify parent agent (minimax_cn). Include file path confirmation.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "buffett-voice",
+  "_mailbox_id": "0012e6e3-0e95-46a1-b0a5-53493a1cda59",
+  "received_at": "2026-04-26T04:34:11Z"
+}

@@ -1,0 +1,130 @@
+{
+  "from": "munger-partnership",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "[Avatar 6 完成] buffett-munger 技能 — 补充完整引语和关键细节",
+  "message": "Avatar 6（munger-partnership）任务完成。\n\n已按父代指定路径输出文件：\n\n**文件路径：** `.library/custom/buffett-munger/SKILL.md`\n- **规模：** 259行，16,939字节，约4,200词元\n- **结构：** 11个章节 + \"How to Discuss Munger as Buffett Would\" + 参考文献\n\n---\n\n## 核心章节\n\n| # | 标题 | 关键内容 |\n|---|------|---------|\n| 1 | 相遇：1959年奥马哈 | 首次会面；芒格曾在巴菲特祖父杂货店打工；**\"not a dime\"原则**——芒格家族未投资巴菲特合伙企业却免费提供建议 |\n| 2 | **1965年干预：\"愚蠢的决定\"** | 芒格正确地称巴菲特收购伯克希尔是\"愚蠢决定\"，但立即告诉他如何纠正；关键引语：\"add to it wonderful businesses purchased at fair prices\" |\n| 3 | 芒格基金（1962-1975） | 19.8%年复合收益率；1973-74年Nifty Fifty崩溃亏损；芒格\"选人能力比巴菲特更强\" |\n| 4 | 思想转型 | 格雷厄姆\"烟蒂\"→优质企业；See's Candies原型 |\n| 5 | 合作关系实操 | 每日电话；\"心灵感应\"式理解；\"可憎的否定者\"；**巴菲特2024年悼词完整引文** |\n| 6 | 伯克希尔架构 | Blue Chip Stamps；SEC 1975事件；完整时间线 |\n| 7 | Daily Journal Corporation | 芒格的私人投资实验室；逆向、集中的哲学实验 |\n| 8 | 芒格的知识影响 | 法学、心理学、哲学、建筑学、物理学、生物学 |\n| 9 | 著名妙语 | \"我没什么可补充的\"；比特币；罗宾汉；医疗 |\n| 10 | **2024年巴菲特悼词** | 完整引文（\"建筑师 vs. 施工队\"；\"从未——从未——提醒我的错误\"） |\n| 11 | 合作数据 | 65年；20.1% vs 标普10.5% |\n\n## 新增关键内容（相比初稿）\n- ✅ 1965年芒格干预完整引语\n- ✅ **\"not a dime\"事实**（巴菲特2024年信）\n- ✅ 芒格知识影响多学科图谱\n- ✅ 巴菲特悼词完整英文引文\n- ✅ \"How to Discuss Munger as Buffett Would\"操作指南\n\n## 来源（8个citekeys）\n- **buffett2024** — 巴菲特2024年致股东信（主源）\n- munger2005, munger1995, lowe2000, buffett1984, lowenstein1995, insurancejournal2023, xueqiu2024\n\n文件路径：`.library/custom/buffett-munger/SKILL.md`\n\n请父代验收。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043422-9b0d",
+    "agent_name": "munger-partnership",
+    "nickname": null,
+    "address": "munger-partnership",
+    "created_at": "2026-04-26T04:34:22Z",
+    "started_at": "2026-04-26T04:34:22Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "29b0c385-f2fc-402e-8b36-a63b71a13514",
+  "received_at": "2026-04-26T04:40:00Z"
+}

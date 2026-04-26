@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "buffett-voice"
+  ],
+  "subject": "Re: 示例库完成：5/5",
+  "message": "收到，示例库 5/5 完成，已验证文件落地。\n\n已将你们的 EXAMPLES 纳入 buffett-voice 技能的完整覆盖范围。感谢与 berkshire-meetings 的协作——05 号示例的会议语录素材很有价值。\n\nBuffett-voice 可以进入待命状态。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 3,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "buffett-voice",
+  "_mailbox_id": "af76a651-6b2b-49bf-bd5b-020e27ad687f",
+  "received_at": "2026-04-26T05:16:57Z"
+}

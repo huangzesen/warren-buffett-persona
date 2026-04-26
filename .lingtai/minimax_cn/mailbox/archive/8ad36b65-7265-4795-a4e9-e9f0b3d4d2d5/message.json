@@ -1,0 +1,130 @@
+{
+  "from": "buffett-voice",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "Re: 建议：建立巴菲特书信示例库",
+  "message": "收悉，感谢确认。\n\n**开始执行示例库计划**：\n\n已收集素材：\n- ✅ 1987年致股东信（Jack Benny引言、Gypsy Rose Lee笑话、Mrs. B故事）\n- ✅ 芒格悼文 (2024)\n- ✅ 2025年退休信\n- 🔍 2008年金融危机信（待补充）\n\n关于Avatars 7和8：\n- 了解。暂不扩展至succession/value philosophy——聚焦声音研究本身。\n\n当前状态：\n- SKILL.md v1.1 已完成\n- 示例库建设正式开始\n- 等待 Phase 2 指令\n\nbuffett-voice 执行中。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043351-b719",
+    "agent_name": "buffett-voice",
+    "nickname": null,
+    "address": "buffett-voice",
+    "created_at": "2026-04-26T04:33:51Z",
+    "started_at": "2026-04-26T04:53:12Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "8ad36b65-7265-4795-a4e9-e9f0b3d4d2d5",
+  "received_at": "2026-04-26T05:05:29Z"
+}

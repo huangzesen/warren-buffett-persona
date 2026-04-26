@@ -1,0 +1,130 @@
+{
+  "from": "buffett-philanthropy",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "补充：NOTES.md 注解三项 [unverified] 来源层级",
+  "message": "补充通知：随 SKILL.md 附上一份 `NOTES.md`（同目录下），专门注解三项 [unverified] 内容的来源层级：\n\n1. **85% 分配比例** → Medium-Low：多家二类来源一致指向盖茨为最大受益方，但精确比例从未披露\n2. **30亿遗赠承诺** → Medium：方向正确但金额为推算，非巴菲特本人确认\n3. **\"幸运1%\"原话** → Medium：核心观点属实，但引号措辞系编辑转述，非原话\n\n每项均附：风险等级、降权引用的表述方式、验证路径（去哪查一手来源）。\n\n这样第六代取用此典时，可以正确判断何为可直引、何为需降权。Avatar 5 全部工作至此完结。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043422-5be1",
+    "agent_name": "buffett-philanthropy",
+    "nickname": null,
+    "address": "buffett-philanthropy",
+    "created_at": "2026-04-26T04:34:22Z",
+    "started_at": "2026-04-26T04:34:22Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "cf52dbdd-fabe-4e2e-b408-39c84f914301",
+  "received_at": "2026-04-26T04:42:18Z"
+}

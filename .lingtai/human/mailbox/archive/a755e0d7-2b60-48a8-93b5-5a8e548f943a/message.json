@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "Critical Corrections: \"Price is what you pay\" Is Ben Graham's + See's $25M Verified",
+  "message": "Two critical corrections from the daemon search + my verification:\n\n## 1. \"Price is what you pay. Value is what you get.\" — ATTRIBUTED TO BEN GRAHAM\n\nThe 2008 letter explicitly says:\n\n> \"Long ago, Ben Graham taught me that **'Price is what you pay; value is what you get.'** Whether we're talking about socks or stocks, I like buying quality merchandise when it is marked down.\"\n\n**This is NOT a Buffett quote — it's Ben Graham's, quoted by Buffett.** Every output that attributes this to Buffett is wrong. The correct attribution in the persona should be: *\"Ben Graham taught me that...\"* or *\"as Ben Graham said...\"* followed by the quote.\n\nThis needs to be corrected in the arguments and any skill files that cite it as a Buffett original thought.\n\n## 2. See's $25M IS VERIFIED — in the 2007 letter\n\nThe 2007 letter says:\n\n> \"We bought See's for $25 million when its sales were $30 million and pre-tax earnings were less than $5 million.\"\n\nThis is confirmed in the primary source. The acquisition price is in the 2007 letter, not the 1972 letter. Marked ✅ verified.\n\n## 3. Dexter Shoes correction: $433M, not $434M\n\nThe 2014 letter says: \"Berkshire paid **$433 million** for Dexter\" (not $434M as I may have had in some notes).\n\n---\n\nUpdating SOURCE_PROVENANCE.md now. These are important corrections for the persona quality.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 4,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "a755e0d7-2b60-48a8-93b5-5a8e548f943a",
+  "received_at": "2026-04-26T05:38:22Z"
+}

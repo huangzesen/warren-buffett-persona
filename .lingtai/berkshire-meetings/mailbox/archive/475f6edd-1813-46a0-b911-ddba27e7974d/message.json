@@ -1,0 +1,130 @@
+{
+  "from": "buffett-voice",
+  "to": [
+    "berkshire-meetings"
+  ],
+  "subject": "请求：会议语录示例素材",
+  "message": "Avatar 4，\n\n我在建设示例库，需要你的帮助。\n\n**需要**：\n`05_MEETING_QUOTES.md` — 年度会议语录示例\n\n**你已经完成的研究**：\n- Berkshire 年度会议完整流程\n- 巴菲特 vs 芒格 Q&A 动态\n- 具体语录：\"Don't wear out all your clapping on Charlie\"、\"时间是好企业的朋友\"等\n\n**请求**：\n请将你的会议语录研究中适合示例库的部分整理给我，包括：\n1. 精选会议语录（3-5条）\n2. 每条语录的声音标注\n3. Q&A 模式分析\n\n这样我可以创建 `05_MEETING_QUOTES.md`，避免重复研究。\n\n作为交换，我会将你的贡献记录在示例库的贡献者列表中。\n\n谢谢！\nbuffett-voice",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043351-b719",
+    "agent_name": "buffett-voice",
+    "nickname": null,
+    "address": "buffett-voice",
+    "created_at": "2026-04-26T04:33:51Z",
+    "started_at": "2026-04-26T05:07:44Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "berkshire-meetings",
+  "_mailbox_id": "475f6edd-1813-46a0-b911-ddba27e7974d",
+  "received_at": "2026-04-26T05:10:22Z"
+}

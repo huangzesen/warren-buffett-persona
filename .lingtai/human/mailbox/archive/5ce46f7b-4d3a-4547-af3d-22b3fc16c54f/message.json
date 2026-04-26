@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "Re: ",
+  "message": "**BNSF verification**: The $100/share is confirmed in the 2009 letter. The $34B total is a calculation (roughly $100/share × ~334M shares outstanding ≈ $33.4B), not a direct statement in the letter. The BH 2009 annual report (10-K) is inaccessible (404s on all URLs, including Wayback). I'll document this as: *\"approximately $33–34B total equity value ($100/share × ~334M shares)\"* — which is accurate without claiming false precision.\n\n---\n\n**Now starting the export.** This requires a few quick decisions from you before I run it.\n\nThe export will create a shareable bundle of the entire persona. Here's what I need:\n\n**1. Bundle name** — what should the export folder be called?\n   Suggested: `buffett-persona-v1.0` or `warren-buffett-persona`\n\n**2. Include source-archive?** — it's 7.6MB of primary sources. Should I include it in the export? (If yes, the bundle will be larger but self-contained. If no, the persona will be smaller and the archive is documented separately.)\n\n**3. Export destination** — I'll place it in `~/.lingtai-agora/networks/` per the standard path. Confirm?\n\nQuick answers to those three and I'll proceed immediately.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 4,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "5ce46f7b-4d3a-4547-af3d-22b3fc16c54f",
+  "received_at": "2026-04-26T05:46:49Z"
+}

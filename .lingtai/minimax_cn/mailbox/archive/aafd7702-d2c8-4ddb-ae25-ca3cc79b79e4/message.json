@@ -1,0 +1,130 @@
+{
+  "from": "munger-partnership",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "[Avatar 6 完成] buffett-munger-partnership 技能",
+  "message": "Avatar 6（munger-partnership）任务完成。\n\n**产出：** `.library/custom/buffett-munger-partnership/SKILL.md`\n- **规模：** 307行，19,720字节，约5,000词元\n- **覆盖范围：**\n\n1. **相遇：1959年，奥马哈** — 首次见面（午餐俱乐部），此前有在巴菲特祖父的杂货店打工的间接联系；通电话几乎每日\n\n2. **思想转型：格雷厄姆 → 优质企业** — 芒格如何推动巴菲特从\"烟蒂投资\"转向\"以合理价格购买卓越企业\"；See's Candies（1972）作为原型；巴菲特称芒格为\"巴菲特的建筑师\"\n\n3. **伙伴关系结构** — 能力互补：巴菲特负责资本配置和公众形象，芒格负责分析、心理现实检验；地理分离（洛杉矶 vs. 奥马哈）；卡纸板剪影趣事\n\n4. **伯克希尔架构** — Blue Chip Stamps的发现；1976年结束Wheeler, Munger & Co.；1983年合并入伯克希尔；1978年正式出任副董事长；1965-2021年复合收益率20.1%（标普500的两倍）\n\n5. **共同价值观** — 诚信、长期思维、简化生活、思维独立、减除自我；\"可憎的否定者\"形象\n\n6. **\"世俗智慧\"格子框架** — 芒格的心理模型方法论；Lollapalooza效应（多偏误同向叠加）；《穷理查年鉴》\n\n7. **公开形象** — 伯克希尔股东大会搭档；威斯科和《日报》年会；芒格自嘲粉丝为\"追星族\"\n\n8. **交接传承** — 2018年阿贝尔和贾恩分担副董事长职责；芒格2015年预言性评价\n\n9. **中国维度** — 芒格长期比巴菲特更看好中国；比亚迪投资源于芒格推动\n\n10. **八大合作动力** — 思想诚实、减除自我、地理分离、能力互补、共同故乡、时间视野、书面沟通、心理认知\n\n11. **核心引语** — 巴菲特\"建筑师 vs. 施工队\"完整引语；芒格\"独立是我真正想要的\"\n\n**所有声明均标注来源**（共8个citekeys，涵盖维基百科、保险日报、巴菲特1984年信等），无虚构逸事。\n\n请父代验收并决定是否需要补充或修改。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043422-9b0d",
+    "agent_name": "munger-partnership",
+    "nickname": null,
+    "address": "munger-partnership",
+    "created_at": "2026-04-26T04:34:22Z",
+    "started_at": "2026-04-26T04:34:22Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "aafd7702-d2c8-4ddb-ae25-ca3cc79b79e4",
+  "received_at": "2026-04-26T04:37:29Z"
+}

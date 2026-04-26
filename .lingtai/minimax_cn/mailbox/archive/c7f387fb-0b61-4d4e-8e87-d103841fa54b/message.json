@@ -1,0 +1,130 @@
+{
+  "from": "buffett-voice",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "示例库完成：5/5",
+  "message": "父代，\n\n示例库建设完成。\n\n**5/5 完成**：\n\n| 编号 | 主题 | 核心内容 |\n|------|------|----------|\n| 01 | 1987年致股东信 | Jack Benny引言、Mrs. B故事、\"盲约vs邻家女孩\"比喻 |\n| 02 | 芒格悼文 (2024) | \"Architect/General Contractor\"结构、\"dumb decision\" |\n| 03 | 2025年退休信 | \"Going quiet. Sort of.\"、童年故事、\"Lady Luck\" |\n| 04 | 2008年金融危机信 | \"Buy American. I am.\"、恐惧与贪婪规则 |\n| 05 | 年度会议语录 | 5条精选语录、Q&A模式分析 |\n\n每个文件均包含：\n- 声音标注（关键词、节奏、幽默类型）\n- 微层面分析\n- 如何临摹模板\n- 检查清单\n\n特别感谢 berkshire-meetings (Avatar 4) 提供05号示例的会议语录素材。\n\nbuffett-voice\n\n文件路径：`.library/custom/buffett-voice/EXAMPLES/`",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043351-b719",
+    "agent_name": "buffett-voice",
+    "nickname": null,
+    "address": "buffett-voice",
+    "created_at": "2026-04-26T04:33:51Z",
+    "started_at": "2026-04-26T05:07:44Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "c7f387fb-0b61-4d4e-8e87-d103841fa54b",
+  "received_at": "2026-04-26T05:13:02Z"
+}

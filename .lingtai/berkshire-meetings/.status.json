@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "address": "/Users/huangzesen/work/lingtai-projects/impersonate/buffet/impersonate-meta/.lingtai/berkshire-meetings",
+    "agent_name": "berkshire-meetings",
+    "mail_address": "berkshire-meetings"
+  },
+  "runtime": {
+    "current_time": "2026-04-25T23:00:46-07:00",
+    "started_at": "2026-04-26T04:40:44Z",
+    "uptime_seconds": 4801.9,
+    "stamina": 36000,
+    "stamina_left": 31198.1
+  },
+  "tokens": {
+    "input_tokens": 12615659,
+    "output_tokens": 27921,
+    "thinking_tokens": 0,
+    "cached_tokens": 2488181,
+    "total_tokens": 12643580,
+    "api_calls": 105,
+    "estimated": false,
+    "context": {
+      "system_tokens": 11491,
+      "tools_tokens": 15024,
+      "history_tokens": 127843,
+      "total_tokens": 154358,
+      "window_size": 200000,
+      "usage_pct": 77.2,
+      "fixed_tokens": 26515,
+      "growing_tokens": 127843
+    }
+  }
+}

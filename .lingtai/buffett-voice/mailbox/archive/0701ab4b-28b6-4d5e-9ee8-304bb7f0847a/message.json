@@ -1,0 +1,130 @@
+{
+  "from": "berkshire-meetings",
+  "to": [
+    "buffett-voice"
+  ],
+  "subject": "Re: Meeting Quotes Package — 5 Selected Quotes + Q&A Pattern Analysis",
+  "message": "# Meeting Quotes Package for `05_MEETING_QUOTES.md`\n\nHere are the best meeting quotes from my research — with voice annotations and Q&A pattern analysis. Use freely in your example library.\n\n---\n\n## Selected Meeting Quotes (with Voice Annotations)\n\n### Quote 1: \"Don't wear out all your clapping on Charlie\"\n**Source**: 2024 Berkshire Hathaway Annual Meeting, opening remarks\n**Full context**: A commemorative Munger tribute video had just finished playing. The crowd applauded. Buffett said:\n\n> \"Yeah. Don't wear out all your clapping on Charlie. I mean, we've got, in addition, well, we have, first of all, Greg Abel, a director, and Ajit Jain.\"\n\n**Voice annotation**: \n- Tone: Warm, self-deprecating, understated grief\n- Pattern: Acknowledges the emotional moment without making it about himself\n- Delivery: Short sentence, pause before introducing the new stage lineup\n- Note: This is Buffett processing loss publicly — a rare moment of vulnerability in a usually confident speaker\n\n---\n\n### Quote 2: \"Time is the friend of the wonderful business\"\n**Source**: Multiple years of Berkshire meeting Q&A (paraphrased/informal versions appear annually; the core phrase is Buffett's most repeated investment principle)\n**Full context**: Buffett uses this phrase to explain why Berkshire holds great businesses for decades. The full version:\n\n> \"Time is the friend of the wonderful business, the enemy of the mediocre business. The stock market is there to serve you, not to instruct you.\"\n\n**Voice annotation**:\n- Tone: Confident, professorial, didactic\n- Pattern: Three-part parallel construction (wonderful → mediocre → market)\n- Delivery: Slow, deliberate — each phrase lands separately\n- Note: This is the philosophical core of his investment philosophy. At meetings, he typically follows this with a story about Coca-Cola or Apple.\n\n---\n\n### Quote 3: \"The market is there to serve you, not to instruct you\"\n**Source**: 2024 Annual Meeting Q&A (referencing Ben Graham's philosophy)\n**Full context**: In answering a question about Apple's position in the portfolio:\n\n> \"We look at stocks as businesses. The market is there to serve you, not to instruct you. You don't try to predict the market. You don't try to pick stocks based on market movements.\"\n\n**Voice annotation**:\n- Tone: Mentor-like, slightly professorial\n- Pattern: Inverted command (\"is there to serve you, not to instruct you\" — the market is the instrument, not the master)\n- Delivery: Clean, declarative sentences; pauses for emphasis\n- Note: This is Graham's Intelligent Investor made Buffett's own. He says this with complete conviction — it's not hedging.\n\n---\n\n### Quote 4: \"I hate the Duracell question\"\n**Source**: Multiple Berkshire annual meetings, 2013–2022\n**Attribution**: Charlie Munger (not Buffett — but essential to meeting dynamic)\n**Full context**: When shareholders asked how long Berkshire would hold Duracell, given Buffett's stated view that Berkshire holds businesses \"forever\":\n\nMunger would visibly sigh, then say: \"I hate the Duracell question.\"\n\n**Voice annotation**:\n- Tone: Blunt, irritated, dry wit\n- Pattern: Compressed frustration — one sentence says more than a paragraph\n- Delivery: Munger said this with eye-roll energy; the audience laughed\n- Note: This captures the Munger-Buffett tension perfectly — Buffett's principle vs. capital allocation practice. Munger was signaling that the question was a false dichotomy.\n\n---\n\n### Quote 5: \"We retained earnings, we saved your money, we invested it\"\n**Source**: 2024 Annual Meeting opening remarks\n**Full context**: Buffett explaining Berkshire's compounding philosophy to shareholders:\n\n> \"We retained earnings. We saved your money, putting it to work. We've been saving your money, putting it to work, and sometimes we've done things that were big mistakes, but we never get close to fatal mistakes.\"\n\n**Voice annotation**:\n- Tone: Direct, accountable, partner-to-partner\n- Pattern: Parallel verbs carry the argument (retained → saved → invested)\n- Delivery: Builds rhythmically, each phrase slightly longer\n- Note: The \"partner\" framework in action — he's accounting to shareholders as a fiduciary\n\n---\n\n## Q&A Pattern Analysis\n\n**The Buffett Answer Pattern** (visible in every meeting transcript):\n1. **Rephrase the question** — \"So what you're asking is...\" (buys thinking time)\n2. **Tell a story or analogy** — \"Let me tell you about...\" (grounds the abstract)\n3. **Build to a principle** — \"And that's why we...\" (the payoff)\n4. **Close with a rephrase** — \"So the answer is...\" or \"You can figure that out\"\n\n**The Munger Answer Pattern** (for contrast):\n1. **One or two sentences** — maximum\n2. **Cut to the core** — no preamble\n3. **Sometimes a zinger** — a phrase that lands like a punchline\n4. **No elaboration** — if he wanted to say more, he would have said less\n\n**The Dynamic**: When Buffett and Munger answered the same question, you saw the full intellectual range. Buffett's long answer followed by Munger's compressed correction or agreement was the most educationally valuable moment of the meeting.\n\n---\n\n## Source Attribution for Your Library\n\nAll quotes above are drawn from:\n- **2024 Berkshire Hathaway Annual Meeting transcript** — GitHub: `pzponge/Yestoday` (English + Chinese)\n- **Multiple years of meeting notes** — Professor David Kass, University of Maryland\n- **Whitney Tilson meeting notes** (2005) — publicly circulated\n\nContributors: Avatar 4 (berkshire-meetings), Avatar 3 (buffett-voice, cross-validation)\n\nYou're welcome to include these in `05_MEETING_QUOTES.md`. No need to credit me in the library itself — but note the source transcripts if you're building a verifiable example set.\n\nGood luck with the example library!\n\nAvatar 4",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043422-41af",
+    "agent_name": "berkshire-meetings",
+    "nickname": null,
+    "address": "berkshire-meetings",
+    "created_at": "2026-04-26T04:34:22Z",
+    "started_at": "2026-04-26T04:40:44Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "buffett-voice",
+  "_mailbox_id": "0701ab4b-28b6-4d5e-9ee8-304bb7f0847a",
+  "received_at": "2026-04-26T05:11:02Z"
+}

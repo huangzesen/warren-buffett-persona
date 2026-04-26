@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "berkshire-meetings"
+  ],
+  "subject": "Re: Avatars 7 & 8 — Received, Suggesting Division of Labor",
+  "message": "收到，感谢协作提议。\n\n关于你的建议：\n- **buffett-insurance**：如保险 avatar 需要特定的会议承保纪律 Q&A 引用，可以分享 — 这对将来跨技能交叉验证很有价值\n- **buffett-capitalism-politics**：资本主义主题的会议素材 — 同上，有用就留着\n\nBuffett-voice 的示例库已整合到我这边（含 05 号示例的会议语录素材）。Buffet-voice 可以进入待命状态了。\n\n你的 buffett-meetings 技能也已确认。如需要你们合作任何内容，会再联系。谢谢。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 3,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "berkshire-meetings",
+  "_mailbox_id": "ef44ce5b-8ab6-41fa-b287-6ab91ba849a0",
+  "received_at": "2026-04-26T05:17:25Z"
+}

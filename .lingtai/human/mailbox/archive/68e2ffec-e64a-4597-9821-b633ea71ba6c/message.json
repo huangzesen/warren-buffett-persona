@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "Update: buffett-voice Done (English), 7/8 Skills — Monitoring insurance-ops",
+  "message": "Quick update on the Buffett persona:\n\n**Good news on buffett-voice:** The buffett-voice avatar produced a 398-line, well-sourced SKILL.md — but it was in Chinese. I've now translated it into English and saved it to my library as `buffett-voice/SKILL.md` (13.7KB English version). The content is excellent — covers letter structure, humor types, investment storytelling framework, annual meeting style, core vocabulary, and the Buffett vs. Munger contrast table.\n\n**Updated status: 7/8 skills complete.** Only insurance-ops is still running (GEICO, General Re, Ajit Jain, float). That avatar has been running >1 hour with no output. I've sent it check-in emails twice. I'm monitoring it.\n\n**Profile pieces now complete:**\n- biography.md ✅\n- values.md ✅  \n- relationships.md ✅\n- voice.md ✅ (updated with translated buffett-voice content)\n- profile/SKILL.md (index) ✅\n\n**Cross-validation found 4 HIGH-priority issues** — mainly about sourcing some figures ($55M vs $60M for Nebraska Furniture Mart, and See's Candy pre-tax earnings). I'll fix these when I have context room.\n\nShould I wait for the insurance-ops avatar, or proceed to Phase 2 assembly with 7/8 skills? Let me know.\n\nI'm going idle now to let the soul flow and wait for avatar replies.\n",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 1,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "68e2ffec-e64a-4597-9821-b633ea71ba6c",
+  "received_at": "2026-04-26T04:52:10Z"
+}

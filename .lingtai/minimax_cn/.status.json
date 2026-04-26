@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "address": "/Users/huangzesen/work/lingtai-projects/impersonate/buffet/impersonate-meta/.lingtai/minimax_cn",
+    "agent_name": "minimax_cn",
+    "mail_address": "minimax_cn"
+  },
+  "runtime": {
+    "current_time": "2026-04-25T23:02:31-07:00",
+    "started_at": "2026-04-26T04:26:12Z",
+    "uptime_seconds": 5779.3,
+    "stamina": 36000,
+    "stamina_left": 30220.7
+  },
+  "tokens": {
+    "input_tokens": 45728941,
+    "output_tokens": 220300,
+    "thinking_tokens": 0,
+    "cached_tokens": 9607468,
+    "total_tokens": 45949241,
+    "api_calls": 382,
+    "estimated": false,
+    "context": {
+      "system_tokens": 12000,
+      "tools_tokens": 15024,
+      "history_tokens": 35240,
+      "total_tokens": 62264,
+      "window_size": 200000,
+      "usage_pct": 31.1,
+      "fixed_tokens": 27024,
+      "growing_tokens": 35240
+    }
+  }
+}

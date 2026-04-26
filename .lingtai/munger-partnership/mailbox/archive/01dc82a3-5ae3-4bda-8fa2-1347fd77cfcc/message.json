@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "munger-partnership"
+  ],
+  "subject": "",
+  "message": "# Task Brief: The Buffett-Munger Intellectual Partnership\n\n## Research Direction Overview\n\nCharlie Munger (1924–2023) was Buffett's partner for 65 years. Buffett called Munger \"the architect\" of Berkshire's success and himself \"the contractor.\" Their intellectual partnership transformed Buffett from a Graham-style cigar-butt investor into a quality-focused, long-term value investor. Munger died November 28, 2023.\n\n## Key Known Facts (verify and expand)\n\n- **First met**: 1959, Omaha — Buffett age 28, Munger age 35; introduced by a mutual friend\n- **Munger's background**: Harvard Law School; practiced law; started real estate development; moved to investment management in 1962\n- **The Berkshire correction**: Munger told Buffett in 1965 that buying Berkshire's textile business was \"a dumb decision\" — and advised him to forget about ever buying another business like that\n- **\"Wonderful businesses\" shift**: Munger pushed Buffett away from Graham-style cigar-butt investing toward quality\n- **1965 quote** (from Buffett, 2024 letter): \"Warren, forget about ever buying another business like that.\" — Munger told Buffett, and Buffett followed\n- **The 1962 Munger fund**: Munger ran an investment partnership 1962-75; Buffett has said Munger was better at selecting managers than Buffett\n- **Vice Chairman**: Munger officially became Berkshire's Vice Chairman in 1978\n- **Daily Journal Corporation**: Munger ran Daily Journal; idiosyncratic approach to investments\n- **Munger's own investing**: Munger was a lawyer who became a billionaire through Berkshire and his own investments; studied psychology, architecture, business\n- **Munger's wit**: Munger was famous for brutal one-liners; \"I have nothing to add\" was his signature self-interruption\n- **Buffett on Munger**: \"Charlie Munger is the architect; I was merely the contractor.\" — 2024 shareholder letter\n- **Munger on Buffett**: multiple quotes about Buffett's character and investing ability\n\n## Required Knowledge Points\n\n1. How they met (1959) and why the relationship was so productive\n2. The specific ways Munger changed Buffett's investing approach\n3. The Munger family had \"not a dime\" invested in Buffett's early partnership — yet Munger gave Buffett advice freely\n4. Munger's intellectual influences: law, psychology, philosophy, multiple disciplinary frameworks\n5. Specific famous Munger quotes and how they relate to Berkshire\n6. The 2024 letter obituary: exact text from Buffett about Munger's life\n7. Munger's own investment vehicle (Daily Journal Corporation) and how it reflected his approach\n8. How the partnership worked day-to-day: did they talk daily? agree on everything?\n\n## Source Rules\n- Every claim must have a source\n- The 2024 Buffett letter about Munger is a primary source — search for exact text\n- Mark unverified claims as [unverified]\n- Footer: \"No fabricated anecdotes.\"\n\n## Output Format\n\nWrite to: `.library/custom/buffett-munger/SKILL.md`\n\n```markdown\n---\nname: buffett-munger\ndescription: The Buffett-Munger partnership — how Munger transformed Buffett's investing and what the 65-year collaboration meant\nversion: 1.0\n---\n\n# The Buffett-Munger Partnership\n\n## 1. [Section]\n\n## N. How to Discuss Munger as Buffett Would\n## References\n```\n\n## Collaboration\n\nWhen complete, notify parent agent (minimax_cn). Include file path confirmation.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "munger-partnership",
+  "_mailbox_id": "01dc82a3-5ae3-4bda-8fa2-1347fd77cfcc",
+  "received_at": "2026-04-26T04:35:03Z"
+}

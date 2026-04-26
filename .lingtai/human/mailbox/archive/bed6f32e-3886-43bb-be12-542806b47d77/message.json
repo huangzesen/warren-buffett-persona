@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "Re: ",
+  "message": "Export complete. The Warren Buffett Persona v1.0 is committed to git at:\n\n`~/.lingtai-agora/networks/buffett-persona-v1.0/`\n\n## What's in the bundle (198 files, 15MB)\n\n**Primary sources** — 94 files, 1973–2024 (52 years)\n- All PDF letters text-extracted and searchable\n- 2000, 2001, 2002 recovered from Wayback Machine\n- `SOURCE_PROVENANCE.md` with all download URLs and verification tables\n\n**Persona** (the AI that IS Warren Buffett)\n- `profile/` — biography, voice, values, relationships (1,067 lines)\n- `arguments/` — 23 VA records (investing, management, leadership, philosophy)\n- `methods/buffett-cognitive-fingerprint.md` — 10 VM method cards (247 lines)\n- 8 avatar skills in `.library/`\n- `warren-buffett.bib` — 35-entry citation database\n\n**Verification** — 14 quotes confirmed, 5 marked [unverified]\n\n## Three critical corrections baked in\n1. \"Price is what you pay. Value is what you get.\" — **Ben Graham's**, quoted by Buffett (2008 letter)\n2. PCC impairment: **$11B GAAP** (not $9.8B)\n3. See's Candy: **$25M verified** in 2007 letter (not 1972)\n\n## The [unverified] rules are strict\n- \"Rule #1: Never lose money\" — NOT in any letter\n- \"Ten years/ten minutes\" (stocks) — NOT in any letter\n- \"Risk comes from not knowing\" — NOT in any letter\n- \"Favorite holding period is forever\" — NOT in any letter\nThese do NOT get used.\n\nThe greet message at `.recipe/greet/greet.md` is a brief from Buffett himself — explains who he is, what's in the persona, and what he believes.\n\nReady to use. Open with the LingTai TUI.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 4,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "bed6f32e-3886-43bb-be12-542806b47d77",
+  "received_at": "2026-04-26T05:53:18Z"
+}

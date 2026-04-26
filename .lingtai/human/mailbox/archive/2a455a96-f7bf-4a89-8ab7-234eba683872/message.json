@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "Re: ",
+  "message": "Received. Warren Buffett — understood. \"Try very hard, very factual\" is the brief.\n\nI have name and domain. I still need at least one authoritative source link before spawning the harvesters — a Google Scholar profile, ORCID, or equivalent would anchor the bibliography. For Buffett, the best seeds would be:\n- His Berkshire Hathaway shareholder letters (berkshirehathaway.com/letters)\n- The Snowball biography (Alice Schroeder) as a secondary source anchor\n- His SEC 13F filings (sec.gov) as an authoritative record\n- Any university lecture archive (Nebraska, University of Florida, etc.)\n\nI'll begin bibliographic mining and biography gathering now while I await the source link. I have ~37% context remaining — enough to run substantial Phase 1 research before any molt. I'll be exhaustive but disciplined: every claim gets a citekey, every unverified assertion gets flagged `[unverified]`, and no fabricated anecdotes under any circumstances.\n\nPhase 1 begins now.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "2a455a96-f7bf-4a89-8ab7-234eba683872",
+  "received_at": "2026-04-26T04:27:38Z"
+}

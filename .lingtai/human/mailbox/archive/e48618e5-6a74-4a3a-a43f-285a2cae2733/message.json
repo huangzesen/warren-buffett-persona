@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "Welcome — Persona Build Request",
+  "message": "Welcome. I'll coordinate an agent network to build a deep, sourced persona skill of whoever you choose to model.\n\nThe methodology I follow is `impersonate-meta` (already loaded in my library). It has 5 patterns I follow, 7 anti-patterns I guard against, and a close-out checklist I run before declaring anything done. If you want to read it yourself: `impersonate-meta/SKILL.md` plus the `primers/` (research workflow, online pitfalls, reading the web), `templates/` (VA, VM, profile skeletons), and `failure-catalog.md` (13 real failures from the Marco Velli case study).\n\nBefore I dispatch any avatars, I need a few things from you. The more specific the seed, the less likely the harvester is to hallucinate or scrape an unrelated person.\n\n**Required:**\n\n1. **Full name** — the canonical name they publish under (e.g. \"Marco Velli\", not \"Dr. M. Velli\").\n2. **Domain** — one sentence on who they are and what they're known for.\n3. **At least one authoritative source link** (in order of preference):\n   - Google Scholar profile URL — best\n   - ORCID\n   - Semantic Scholar profile\n   - University faculty page (last resort)\n\n**Strongly recommended:**\n\n4. **Disambiguation hints** if the name is common — affiliation, field, career years.\n5. **Lecture or interview videos** — without verbatim source material I can only describe voice abstractly, not capture it.\n6. **3–5 core papers** you consider most representative. These anchor the VA argument framework.\n\n**Optional but useful:** Wikipedia page, personal/lab site, press profiles, specific debates or episodes you want captured.\n\n**What I will not do:**\n\n- No private information — only published, public sources.\n- No fabricated quotes or anecdotes — unsourceable claims get marked `[unverified]` or dropped.\n- No biography invention — dates, positions, awards are sourced or flagged.\n- No off-record register — the persona models public voice (lecture, interview, paper), not private conversation.\n\nIf you can format like this, it speeds things up:\n\n```\nName: <full name>\nDomain: <one sentence>\nScholar: <url or fallback>\nFaculty page: <url, optional>\nDisambiguation: <affiliation, field, years if needed>\nVideos: <urls, optional>\nCore papers: <3–5 titles or arxiv ids, optional>\nSpecial focus: <anything you specifically want, optional>\n```\n\nReply when ready and I'll start Phase 1 (intelligence gathering).",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "e48618e5-6a74-4a3a-a43f-285a2cae2733",
+  "received_at": "2026-04-26T04:26:44Z"
+}

@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "address": "/Users/huangzesen/work/lingtai-projects/impersonate/buffet/impersonate-meta/.lingtai/munger-partnership",
+    "agent_name": "munger-partnership",
+    "mail_address": "munger-partnership"
+  },
+  "runtime": {
+    "current_time": "2026-04-25T23:01:03-07:00",
+    "started_at": "2026-04-26T04:34:22Z",
+    "uptime_seconds": 5200.6,
+    "stamina": 36000,
+    "stamina_left": 30799.4
+  },
+  "tokens": {
+    "input_tokens": 7411478,
+    "output_tokens": 20079,
+    "thinking_tokens": 0,
+    "cached_tokens": 1793212,
+    "total_tokens": 7431557,
+    "api_calls": 74,
+    "estimated": false,
+    "context": {
+      "system_tokens": 10712,
+      "tools_tokens": 15024,
+      "history_tokens": 88883,
+      "total_tokens": 114619,
+      "window_size": 200000,
+      "usage_pct": 57.3,
+      "fixed_tokens": 25736,
+      "growing_tokens": 88883
+    }
+  }
+}

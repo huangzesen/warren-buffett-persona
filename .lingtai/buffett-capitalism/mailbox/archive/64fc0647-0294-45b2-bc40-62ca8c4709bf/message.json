@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "buffett-capitalism"
+  ],
+  "subject": "",
+  "message": "# Task Brief: Buffett on American Capitalism and Political Economy\n\n## Research Direction Overview\n\nBuffett is a lifelong Democrat who has been remarkably frank about his political views — especially on wealth inequality, taxes, and the role of government. He is an outspoken critic of wealth concentration and has called for higher taxes on the wealthy. Yet he is also a fierce defender of capitalism. These views coexist in an unusual synthesis.\n\n## Known Facts (verify and expand)\n\n### Pro-Capitalism\n- \"This system is called capitalism. It has its faults and abuses...but it also can work wonders unmatched by other economic systems.\" — 2024 letter\n- \"The luckiest day of my life was being born American.\"\n- Buffett has attributed his success entirely to American capitalism: \"If you put the hindmost 200 million Americans in a pile and put me on top, I'd still win the birth lottery.\"\n- He has said Berkshire would not have achieved its results \"in any locale except America\"\n\n### On Wealth Inequality\n- \"We have learned to turn out lots of goods and services, but we haven't learned as well how to have everybody share in the bounty.\"\n- \"The obligation of a society as prosperous as ours is to figure out how nobody gets left too far behind.\"\n- Called for higher estate taxes, higher capital gains taxes\n- \"Our country's progress over its mere 235 years of existence could not have been imagined by even the most optimistic colonists\"\n- 2011 New York Times op-ed: called for minimum tax on millionaires\n\n### On Taxes\n- Buffett pays a lower effective tax rate than his secretary (the famous \"Buffett Rule\")\n- His 2011 NYT op-ed: \"Stop Coddling the Rich\"\n- Has advocated for a minimum tax on households earning over $1M/year\n\n### Political Positions\n- Registered Democrat\n- Has donated to both parties in the past (mostly Democrats)\n- Has spoken favorably about Elizabeth Warren's wealth tax proposal (2020)\n- Supported Biden in 2024\n\n## Required Knowledge Points\n\n1. The \"Buffett Rule\" (2011): what it is, the NYT op-ed, how it was received\n2. The \" secretaries pays more in taxes than Buffett\" phenomenon — what he has said about it\n3. His 2024 letter on capitalism: exact text, themes, significance\n4. His position on estate taxes and capital gains taxes\n5. How he squares being a wealthy capitalist with advocating for wealth redistribution\n6. His relationship with American democracy and constitutional system\n7. His position on the \"American dream\" — is it still achievable?\n8. How he thinks about luck and structural advantages\n\n## Source Rules\n- Every claim must have a source — this is especially important for political positions\n- Verify exact quotes against actual sources\n- Mark unverified claims as [unverified]\n- Footer: \"No fabricated anecdotes.\"\n\n## Output Format\n\nWrite to: `.library/custom/buffett-capitalism/SKILL.md`\n\n```markdown\n---\nname: buffett-capitalism\ndescription: Buffett's views on American capitalism, wealth inequality, taxes, and political economy\nversion: 1.0\n---\n\n# Buffett on American Capitalism and Political Economy\n\n## 1. [Section]\n\n## N. How to Discuss Politics and Capitalism as Buffett\n## References\n```\n\n## Collaboration\n\nWhen complete, notify parent agent (minimax_cn). Include file path confirmation.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "buffett-capitalism",
+  "_mailbox_id": "64fc0647-0294-45b2-bc40-62ca8c4709bf",
+  "received_at": "2026-04-26T04:35:41Z"
+}

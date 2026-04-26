@@ -1,0 +1,26 @@
+{
+  "id": "67d512cd-71fc-48c5-8775-6e3c54a3eefb",
+  "_mailbox_id": "67d512cd-71fc-48c5-8775-6e3c54a3eefb",
+  "from": "human",
+  "to": [
+    "minimax_cn"
+  ],
+  "cc": [],
+  "subject": "",
+  "message": "how far is it from actually being done?",
+  "type": "normal",
+  "received_at": "2026-04-26T05:37:58.895834Z",
+  "identity": {
+    "address": "human",
+    "admin": null,
+    "agent_name": "human",
+    "location": {
+      "city": "Los Angeles",
+      "country": "US",
+      "loc": "34.0522,-118.2437",
+      "region": "California",
+      "resolved_at": "2026-04-25T22:26:11-07:00",
+      "timezone": "America/Los_Angeles"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "agent_id": "20260426-043512-2393",
+  "agent_name": "buffett-capitalism",
+  "nickname": null,
+  "address": "buffett-capitalism",
+  "created_at": "2026-04-26T04:35:12Z",
+  "started_at": "2026-04-26T04:35:12Z",
+  "admin": {},
+  "language": "wen",
+  "stamina": 36000,
+  "state": "asleep",
+  "soul_delay": 120,
+  "molt_count": 0,
+  "capabilities": [
+    [
+      "avatar",
+      {}
+    ],
+    [
+      "bash",
+      {
+        "yolo": true
+      }
+    ],
+    [
+      "codex",
+      {}
+    ],
+    [
+      "compose",
+      {
+        "provider": "minimax"
+      }
+    ],
+    [
+      "daemon",
+      {}
+    ],
+    [
+      "draw",
+      {
+        "provider": "minimax"
+      }
+    ],
+    [
+      "edit",
+      {}
+    ],
+    [
+      "email",
+      {}
+    ],
+    [
+      "glob",
+      {}
+    ],
+    [
+      "grep",
+      {}
+    ],
+    [
+      "library",
+      {
+        "paths": [
+          "../.library_shared",
+          "~/.lingtai-tui/utilities",
+          "../../impersonate-meta"
+        ]
+      }
+    ],
+    [
+      "listen",
+      {
+        "provider": "whisper"
+      }
+    ],
+    [
+      "psyche",
+      {}
+    ],
+    [
+      "read",
+      {}
+    ],
+    [
+      "talk",
+      {
+        "provider": "minimax"
+      }
+    ],
+    [
+      "video",
+      {
+        "provider": "minimax"
+      }
+    ],
+    [
+      "vision",
+      {
+        "provider": "minimax"
+      }
+    ],
+    [
+      "web_read",
+      {}
+    ],
+    [
+      "web_search",
+      {
+        "provider": "minimax"
+      }
+    ],
+    [
+      "write",
+      {}
+    ]
+  ]
+}

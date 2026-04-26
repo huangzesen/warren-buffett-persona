@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "address": "/Users/huangzesen/work/lingtai-projects/impersonate/buffet/impersonate-meta/.lingtai/buffett-capitalism",
+    "agent_name": "buffett-capitalism",
+    "mail_address": "buffett-capitalism"
+  },
+  "runtime": {
+    "current_time": "2026-04-25T22:28:38-07:00",
+    "started_at": "2026-04-26T04:35:12Z",
+    "uptime_seconds": 3206.3,
+    "stamina": 36000,
+    "stamina_left": 32793.7
+  },
+  "tokens": {
+    "input_tokens": 2726622,
+    "output_tokens": 15559,
+    "thinking_tokens": 0,
+    "cached_tokens": 1137396,
+    "total_tokens": 2742181,
+    "api_calls": 47,
+    "estimated": false,
+    "context": {
+      "system_tokens": 11852,
+      "tools_tokens": 15024,
+      "history_tokens": 40016,
+      "total_tokens": 66892,
+      "window_size": 200000,
+      "usage_pct": 33.4,
+      "fixed_tokens": 26876,
+      "growing_tokens": 40016
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "Source Archive Complete — All Recoverable Letters Secured + Provenance Documented",
+  "message": "Here's the complete picture on the source archive and provenance:\n\n## ✅ What I Found\n\n**Archive is real and almost complete — 94 files, 1972–2024.**\n\n### Recovered 3 Missing Letters (2000, 2001, 2002)\nThe original files were 404 stubs or binary garbage. I recovered the actual letters from the **Wayback Machine**:\n- **2000**: 125KB HTML (archived 2003-02-07)\n- **2001**: 116KB HTML + 213KB PDF (archived 2003-12-05)\n- **2002**: 599KB PDF (archived 2003-10-02)\n\n### Only Genuine Gap: 1972 Letter\nThe 1972 letter is **not on berkshirehathaway.com** (404), not on Wayback Machine, not on buffettarchive.org. It's genuinely unavailable from official sources. The file in the archive is a 404 stub.\n\n---\n\n## 🔗 Download Sources (Documented in SOURCE_PROVENANCE.md)\n\n**Reproducible commands:**\n- 1973–1999 HTML: `https://www.berkshirehathaway.com/letters/YYYY.html`\n- 2003–2024 PDF: `https://www.berkshirehathaway.com/letters/YYYYltr.pdf`\n- 2000–2002: Wayback Machine only (specific URLs documented)\n\n---\n\n## ❌ Unverified Quotes — NOT in Any Letter\n\nThese famous quotes are **not in any shareholder letter 1972–2024**. Mark with `[unverified]` or remove:\n\n1. **\"Rule #1: Never lose money\"** — NOT in any letter. (2001 letter has \"rules 1 and 2\" but in context of insurance underwriting rules, not investment rules — completely different meaning.)\n2. **\"If you aren't willing to own a stock for ten years, don't think about owning it for ten minutes.\"** — NOT in any letter. Closest: 2006 letter \"about ten minutes every year he would get the urge to sell his company\" (about selling a business, not stocks).\n3. **\"Risk comes from not knowing what you are doing.\"** — NOT in any letter.\n4. **\"My favorite holding period is forever.\"** — NOT in any letter (exact form).\n5. **\"Buying America's future\"** (re: BNSF) — NOT in 2009 letter.\n6. **See's $25M** — 1972 letter unavailable, price not in any other letter.\n7. **BNSF $34B total** — $100/share confirmed; $34B total not stated in 2009 letter.\n\n**These quotes likely come from Buffett's speeches and interviews, not shareholder letters.**\n\n---\n\n## ✅ Key Corrections from Primary Sources\n\n- **PCC write-down: $11B GAAP** (NOT $9.8B from secondary sources)\n- VA010 updated to $11B\n- 2001 letter confirms General Re \"rules 1 and 2\" were about **underwriting rules for terrorism risk**, not investment rules\n\n---\n\nThe `SOURCE_PROVENANCE.md` file now has the complete reproducible download script, file listing, and verification results. All eight avatars have been working in parallel on their domains.\n\nGood morning — what's next?",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 4,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "0cf99fd0-de5e-4ace-9e36-3b9e5443ee1e",
+  "received_at": "2026-04-26T05:35:45Z"
+}

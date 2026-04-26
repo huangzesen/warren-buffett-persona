@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "address": "/Users/huangzesen/work/lingtai-projects/impersonate/buffet/impersonate-meta/.lingtai/moat-cases",
+    "agent_name": "moat-cases",
+    "mail_address": "moat-cases"
+  },
+  "runtime": {
+    "current_time": "2026-04-25T23:00:32-07:00",
+    "started_at": "2026-04-26T04:53:36Z",
+    "uptime_seconds": 4015.7,
+    "stamina": 36000,
+    "stamina_left": 31984.3
+  },
+  "tokens": {
+    "input_tokens": 9599048,
+    "output_tokens": 22511,
+    "thinking_tokens": 0,
+    "cached_tokens": 2289767,
+    "total_tokens": 9621559,
+    "api_calls": 99,
+    "estimated": false,
+    "context": {
+      "system_tokens": 11375,
+      "tools_tokens": 15024,
+      "history_tokens": 92132,
+      "total_tokens": 118531,
+      "window_size": 200000,
+      "usage_pct": 59.3,
+      "fixed_tokens": 26399,
+      "growing_tokens": 92132
+    }
+  }
+}

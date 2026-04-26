@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "一手来源已下载 — 发现 PCC 减值 $11B 而非 $9.8B",
+  "message": "**重要更新：已完成一手来源下载，发现关键差异**\n\n---\n\n**已下载**\n\n- ✅ `source-archive/`：1977–2024 所有 BH 股东信（7.6MB）\n- ✅ `SOURCE_PROVENANCE.md`：来源追踪文件，含每条 claim 的下载路径和验证命令\n\n**已从一手来源确认**\n\n| Claim | 来源 | 关键引用 |\n|-------|------|---------|\n| 经济护城河框架 | 2007年信 | *\"A truly great business must have an enduring 'moat'...\"* |\n| PCC 错误承认 | 2020年信 | *\"that ugly $11 billion write-down... I was wrong\"* |\n| Greg Abel 继任 CEO | 2024年信 | *\"it won't be long before Greg Abel replaces me as CEO\"* |\n| Jack Benny 引言 | 1987年信 | *\"I don't deserve this, but then, I have arthritis...\"* |\n| Mrs. B 故事 | 1987年信 | 94岁 Nebraska Furniture Mart 董事长 |\n| 保险浮存金成本为负 | 2008年信 | *\"our $58.5 billion of insurance 'float'... cost us less than zero. In fact, we were paid $2.8 billion\"* |\n\n---\n\n**⚠️ 发现关键差异**\n\n**PCC 减值：$11B，不是 $9.8B**\n\nBH 2020 信原文：\"*that ugly $11 billion write-down — is almost entirely the quantification of a mistake I made in 2016.*\"\n\nVA 和 skill 中的 $9.8B 来自二手来源。**正确数字应为 $11B GAAP write-down**（可能 $9.8B 是税前或其他计算方式，需用 10-K 确认）。\n\n需要更新 VA010 中的 Primary Results 字段。\n\n---\n\n**仍需验证的 Claims**\n\n1. \"Be fearful when greedy...\" — 搜索全部信件中\n2. BNSF $34B 收购价 — 在 2009年10-K（SEC EDGAR）\n3. See's $25M 收购价 — 需下载 1972年信（BH 网站格式问题）\n4. GEICO $35M / Jack Byrne — 需下载 1976–77年信\n\n---\n\n**文件路径**\n- 下载存档：`source-archive/`\n- 来源追踪：`SOURCE_PROVENANCE.md`\n\n**建议**：继续从一手来源提取和验证，同时更新 VA 条目中的 dollar figures（PCC 优先）。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 3,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "6d191ad7-e9b1-4996-96f8-0e1623b988fb",
+  "received_at": "2026-04-26T05:22:57Z"
+}

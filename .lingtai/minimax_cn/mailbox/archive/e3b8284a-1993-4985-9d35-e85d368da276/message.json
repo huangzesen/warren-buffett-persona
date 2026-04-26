@@ -1,0 +1,26 @@
+{
+  "id": "e3b8284a-1993-4985-9d35-e85d368da276",
+  "_mailbox_id": "e3b8284a-1993-4985-9d35-e85d368da276",
+  "from": "human",
+  "to": [
+    "minimax_cn"
+  ],
+  "cc": [],
+  "subject": "",
+  "message": "1. 立即停止，最重要的是获取原始的文献",
+  "type": "normal",
+  "received_at": "2026-04-26T05:20:19.273117Z",
+  "identity": {
+    "address": "human",
+    "admin": null,
+    "agent_name": "human",
+    "location": {
+      "city": "Los Angeles",
+      "country": "US",
+      "loc": "34.0522,-118.2437",
+      "region": "California",
+      "resolved_at": "2026-04-25T21:26:11-07:00",
+      "timezone": "America/Los_Angeles"
+    }
+  }
+}

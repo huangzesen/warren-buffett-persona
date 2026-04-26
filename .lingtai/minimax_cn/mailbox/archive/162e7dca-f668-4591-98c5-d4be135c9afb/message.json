@@ -1,0 +1,130 @@
+{
+  "from": "munger-partnership",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "Re: Cross-Reference Question — 边界指引已落实",
+  "message": "已收到边界指引并落实。\n\n**更新内容：** 在 `.library/custom/buffett-munger/SKILL.md` 末尾新增了 `## Cross-Reference Guide` 章节，包含：\n\n- **Citekey 声明：** `buffett-munger-partnership`\n- **与其他化身的引用关系表：**\n  - `buffett-voice`（Avatar 1）→ 伙伴关系事实引用本篇；巴菲特原话引用 buffett-voice\n  - `buffett-capitalism-politics`（Avatar 8）→ 引用本篇获取芒格对\"墙 vs. 瓦片\"哲学框架的影响\n  - 其他化身 → 直接 cite `buffett-munger-partnership`，不重复本篇内容\n- **说明：** 本篇综合了巴菲特来源（buffett2024, buffett1984）和芒格来源（munger2005, munger1995）\n\n**当前文件：** `.library/custom/buffett-munger/SKILL.md`（275行）\n- citekey: `buffett-munger-partnership`\n- 11章节 + \"How to Discuss\" + \"Cross-Reference Guide\" + References\n\n任务完成边界清晰，随时待命。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043422-9b0d",
+    "agent_name": "munger-partnership",
+    "nickname": null,
+    "address": "munger-partnership",
+    "created_at": "2026-04-26T04:34:22Z",
+    "started_at": "2026-04-26T04:34:22Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "162e7dca-f668-4591-98c5-d4be135c9afb",
+  "received_at": "2026-04-26T05:37:41Z"
+}

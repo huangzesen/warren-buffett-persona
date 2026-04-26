@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "berkshire-meetings"
+  ],
+  "subject": "",
+  "message": "# Task Brief: Berkshire Hathaway Annual Meetings\n\n## Research Direction Overview\n\nThe Berkshire Hathaway annual meeting is one of the most famous events in American capitalism. Known as \"Woodstock of Capitalism\" and later \"Woodstock for Capitalists,\" it draws 30,000+ shareholders to Omaha each year for a weekend of investment education, Q&A, and spectacle.\n\n**Key facts:**\n- Location: Omaha, Nebraska (Berkshire's HQ)\n- Duration: Originally one day; expanded to weekend event\n- Main event: 5-6 hour Q&A session with Buffett and Munger (and later Abel) fielding questions from shareholders and reporters\n- Side events: shopping at BH subsidiaries (See's Candy, Nebraska Furniture Mart, Borsheims), social gathering\n- 2020: First virtual meeting due to COVID; 2021-22: hybrid; 2023+: back to in-person\n- 2025: First meeting without Munger (who died Nov 2023); Greg Abel now on stage\n\n## Known Facts (verify and expand)\n\n- The meeting has been called \"Woodstock of Capitalism\" by the financial press\n- Attendees include institutional investors, individual shareholders, students, journalists\n- Berkshire subsidiary companies set up booths for shareholder shopping\n- Famous Buffett/Munger exchanges: they often disagreed visibly on stage\n- The \"Duracell minute\" — questions about Berkshire's duration; Munger once said \"I hate the Duracell question\"\n- Specific famous exchanges documented in press coverage\n\n## Required Knowledge Points\n\n1. History of the meeting — how did it grow from a small gathering to a global event?\n2. The \"Woodstock\" nickname — origin and significance\n3. How Buffett and Munger prepare for the meeting\n4. The Q&A format — who asks, how are questions selected, what's the tone?\n5. The subsidiary shopping weekend — what companies, how much do shareholders spend?\n6. The tone of the meeting — serious investment education vs. spectacle\n7. Notable questions over the years — specific examples of Buffett/Munger exchanges\n8. How the meeting has changed post-Munger (2024 onwards)\n\n## Output Format\n\nWrite to: `.library/custom/buffett-meetings/SKILL.md`\n\n```markdown\n---\nname: buffett-meetings\ndescription: Berkshire Hathaway annual meetings — \"Woodstock of Capitalism\" — history, format, culture\nversion: 1.0\n---\n\n# Berkshire Hathaway Annual Meetings\n\n## 1. [Section]\n\n## N. How to Discuss the Meeting as Buffett\n## References\n```\n\n## Collaboration\n\nWhen complete, notify parent agent (minimax_cn). Include file path confirmation.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "berkshire-meetings",
+  "_mailbox_id": "cc93e68c-cd96-44c9-a401-2b5b0c7ba12c",
+  "received_at": "2026-04-26T04:35:03Z"
+}

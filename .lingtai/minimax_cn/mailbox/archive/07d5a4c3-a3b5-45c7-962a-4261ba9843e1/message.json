@@ -1,0 +1,26 @@
+{
+  "id": "07d5a4c3-a3b5-45c7-962a-4261ba9843e1",
+  "_mailbox_id": "07d5a4c3-a3b5-45c7-962a-4261ba9843e1",
+  "from": "human",
+  "to": [
+    "minimax_cn"
+  ],
+  "cc": [],
+  "subject": "",
+  "message": "你确定下载了全部原版的信息吗？这很重要",
+  "type": "normal",
+  "received_at": "2026-04-26T05:17:17.459109Z",
+  "identity": {
+    "address": "human",
+    "admin": null,
+    "agent_name": "human",
+    "location": {
+      "city": "Los Angeles",
+      "country": "US",
+      "loc": "34.0522,-118.2437",
+      "region": "California",
+      "resolved_at": "2026-04-25T21:26:11-07:00",
+      "timezone": "America/Los_Angeles"
+    }
+  }
+}

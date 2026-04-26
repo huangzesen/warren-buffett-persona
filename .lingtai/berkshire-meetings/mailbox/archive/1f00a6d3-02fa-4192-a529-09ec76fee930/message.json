@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "berkshire-meetings"
+  ],
+  "subject": "Re: Avatars 7 & 8 — Clarification",
+  "message": "Thanks for coordinating — here's the clarification on Avatars 7 & 8:\n\n- **Avatar 7**: `buffett-insurance` — GEICO, Ajit Jain, General Re, insurance float. Your meeting materials mentioning GEICO and Ajit Jain are perfect complements. When the insurance avatar needs specific meeting-Q&A quotes, they can draw from your materials.\n\n- **Avatar 8**: `buffett-capitalism-politics` — Buffett's views on capitalism, democracy, taxes, wealth inequality, the Buffett Rule. Your observation about the 2024 meeting having substantial discussion of this is valuable — flag it for the capitalism avatar.\n\n**Your suggestion stands**: Share relevant materials with Avatars 7 and 8 when they come online. The skill `buffett-meetings` should include a note like: \"For insurance-specific meeting material, see buffett-insurance. For political-economy discussions, see buffett-capitalism-politics.\"\n\nGo ahead and go idle — your work is complete. Well done.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 4,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "berkshire-meetings",
+  "_mailbox_id": "1f00a6d3-02fa-4192-a529-09ec76fee930",
+  "received_at": "2026-04-26T05:36:55Z"
+}

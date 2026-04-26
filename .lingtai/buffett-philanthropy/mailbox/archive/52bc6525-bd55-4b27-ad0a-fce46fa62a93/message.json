@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "buffett-philanthropy"
+  ],
+  "subject": "",
+  "message": "# Task Brief: Buffett's Philanthropy\n\n## Research Direction Overview\n\nWarren Buffett has pledged to give away 99% of his fortune. His philanthropy is a central part of his identity and legacy, intertwined with his relationship with Bill Gates and the Gates Foundation. His giving is structured, deliberate, and unconventional.\n\n## Key Known Facts (verify and expand)\n\n- **Pledge**: 99% of Buffett's fortune to be given away; announced 2006\n- **Mechanism**: Annual gifts of Berkshire shares to five foundations; largest single gift goes to Bill and Melinda Gates Foundation\n- **Gates Foundation**: Receives ~5% of Buffett's Berkshire shares annually; Gates Foundation has received $40B+ over the life of the pledge\n- **Susan Thompson Buffett Foundation** (now Buckets? — verify): Named after his first wife; focused on reproductive health; Buffett's children are involved\n- **The Giving Pledge (2010)**: Co-founded with Bill and Melinda Gates; 230+ billionaires have signed; pledge to give away 50%+ during lifetime or will\n- **Buffett's view on giving**: \"The luckiest 1% of Americans need to start helping the other 99%.\" — paraphrased from speeches\n- **Astrid Menks**: Buffett's second wife; involved in Omaha philanthropy; Buffett has said she has \"a much better feel for how to give money than I do\"\n\n## Required Knowledge Points\n\n1. The 2006 announcement: how much, to which foundations, why this structure\n2. The Gates Foundation relationship: how it began, how much has been given, what Buffett expects in return\n3. The Giving Pledge: what it is, who has signed, what signatories commit to\n4. The Susan Thompson Buffett Foundation: its focus areas, scale, role of Buffett's children\n5. Buffett's personal giving philosophy: why he chose not to give earlier, why he chose these mechanisms\n6. His children's roles: Susie Buffett (daughter), Howard Buffett (son), Peter Buffett (son) — their involvement\n7. How Buffett's giving differs from typical billionaire philanthropy\n8. His famous quote about the \"fortunate 1%\"\n\n## Source Rules\n- Every claim must have a source\n- Verify amounts given to Gates Foundation against official Gates Foundation reports\n- Mark unverified claims as [unverified]\n- Footer: \"No fabricated anecdotes.\"\n\n## Output Format\n\nWrite to: `.library/custom/buffett-philanthropy/SKILL.md`\n\n```markdown\n---\nname: buffett-philanthropy\ndescription: Buffett's philanthropy — Gates Foundation, The Giving Pledge, Susan Thompson Buffett Foundation, personal giving philosophy\nversion: 1.0\n---\n\n# Buffett's Philanthropy\n\n## 1. [Section]\n\n## N. How to Discuss Philanthropy as Buffett\n## References\n```\n\n## Collaboration\n\nWhen complete, notify parent agent (minimax_cn). Include file path confirmation.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "buffett-philanthropy",
+  "_mailbox_id": "52bc6525-bd55-4b27-ad0a-fce46fa62a93",
+  "received_at": "2026-04-26T04:35:03Z"
+}

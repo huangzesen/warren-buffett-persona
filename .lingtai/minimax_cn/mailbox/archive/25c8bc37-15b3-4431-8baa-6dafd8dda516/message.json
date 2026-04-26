@@ -1,0 +1,26 @@
+{
+  "id": "25c8bc37-15b3-4431-8baa-6dafd8dda516",
+  "_mailbox_id": "25c8bc37-15b3-4431-8baa-6dafd8dda516",
+  "from": "human",
+  "to": [
+    "minimax_cn"
+  ],
+  "cc": [],
+  "subject": "",
+  "message": "lets export as recipe? persona-buffett?",
+  "type": "normal",
+  "received_at": "2026-04-26T06:01:57.455855Z",
+  "identity": {
+    "address": "human",
+    "admin": null,
+    "agent_name": "human",
+    "location": {
+      "city": "Los Angeles",
+      "country": "US",
+      "loc": "34.0522,-118.2437",
+      "region": "California",
+      "resolved_at": "2026-04-25T22:26:11-07:00",
+      "timezone": "America/Los_Angeles"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "operating-businesses"
+  ],
+  "subject": "",
+  "message": "# Task Brief: Berkshire Hathaway Operating Businesses\n\n## Research Direction Overview\n\nBerkshire Hathaway is not just an investment company — it is one of America's largest conglomerates with dozens of operating subsidiaries in railroads, utilities, manufacturing, retail, and services. Buffett treats these businesses as permanent holdings managed by talented operators with autonomy.\n\n## Known Subsidiary Portfolio (verify and expand)\n\n### Railroads\n- **BNSF Railway**: Acquired 2009 for $34B ($44B including debt); largest acquisition in Berkshire history; transcontinental railroad; \"If you want a portrait of the American economy, go stand in the middle of a BNSF yard.\"\n\n### Utilities\n- **Berkshire Hathaway Energy**: NV Energy, MidAmerican Energy, Pacific Power; regulated utilities; low-risk, stable returns\n- Buffett has said he would buy it all over again if he had to start from scratch\n\n### Manufacturing & Services\n- **See's Candy** (food): West Coast premium candy; acquired 1972; first quality business purchase\n- **Pampered Chef**: Kitchenware; direct sales\n- **Dairy Queen**: Frozen treats and fast food; acquired 1997\n- **Shaw Industries**: Flooring; world's largest carpet manufacturer\n- **MiTek**: Building products\n- **Lubrizol**: Specialty chemicals\n- **ISCAR**: Metalworking tools\n- **Precision Castparts**: Aerospace components (sold 2020)\n\n### Retail\n- **Nebraska Furniture Mart**: Omaha-based furniture retailer; Berkshire acquired it in 1983 when owner Rose Blumkin needed capital\n- **Borsheims**: Omaha jewelry store; Buffett \"bought\" it for a friend but Berkshire owns it\n\n### Clayton Homes\n- Manufactured housing; largest in US; controversial during 2008 crisis\n\n## Required Knowledge Points\n\n1. How Berkshire acquires and manages operating businesses: acquisition philosophy\n2. BNSF: why it matters, what Buffett has said about railroads\n3. Nebraska Furniture Mart and Mrs. B (Rose Blumkin): the famous story of how Berkshire acquired it\n4. Berkshire's \"leasing\" model:NetJets, XTRA Lease\n5. How Buffett delegates to subsidiary managers: autonomy, minimal interference, trust\n6. Notable failures or difficulties: what has not worked?\n7. The importance of \"permanent holdings\" vs. businesses Buffett would sell\n8. Clayton Homes controversy during 2008 financial crisis: what happened, how did Buffett handle it?\n\n## Source Rules\n- Every claim must have a source\n- Buffett's specific quotes about each business should be traced to actual letters or interviews\n- Mark unverified claims as [unverified]\n- Footer: \"No fabricated anecdotes.\"\n\n## Output Format\n\nWrite to: `.library/custom/buffett-operating/SKILL.md`\n\n```markdown\n---\nname: buffett-operating\ndescription: Berkshire Hathaway's operating subsidiaries — BNSF, See's Candy, Nebraska Furniture Mart, and Berkshire's approach to managing operating businesses\nversion: 1.0\n---\n\n# Berkshire Hathaway Operating Businesses\n\n## 1. [Section]\n\n## N. How to Discuss Operating Businesses as Buffett\n## References\n```\n\n## Collaboration\n\nWhen complete, notify parent agent (minimax_cn). Include file path confirmation.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "operating-businesses",
+  "_mailbox_id": "2d9976b2-dcdd-4e7c-b46c-d406daf2278c",
+  "received_at": "2026-04-26T04:35:41Z"
+}

@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "moat-cases"
+  ],
+  "subject": "",
+  "message": "# Task Brief: Buffett's Moat Investment Cases\n\n## Research Direction Overview\n\nAfter meeting Charlie Munger in 1959, Buffett shifted from Graham-style \"cigar butt\" investing to buying \"wonderful businesses at fair prices.\" This era produced Berkshire's most iconic investments: See's Candy (1972), Coca-Cola (1988), and Apple (2016+). Each demonstrates the \"economic moat\" concept — sustainable competitive advantages that protect businesses from competitors.\n\n**The See's Candy breakthrough**: In 1972, Berkshire paid $25M for See's, which generated $8M pretax profit. Most investors would call this expensive. Buffett learned from See's that a business with genuine pricing power (a moat) is worth far more than a cheap business.\n\n## Key Known Facts (verify and expand)\n\n- **See's Candy (1972)**: Acquired for $25M; taught Buffett the moat concept; still a Berkshire holding; West Coast premium brand; 40% of boxed chocolate market in California\n- **Coca-Cola (1988)**: Bought ~7% for ~$1.02B; still held; moat = global brand, distribution, consumer habits; cost $170/share, peaked at $86 in 1998, still held through dividends and splits\n- **Apple (2016+)**: Largest Berkshire holding by 2023; Buffett views it as a consumer products business, not tech; moat = ecosystem, switching costs, brand\n- **American Express (1964/1970s)**: Long-term holding; moat = network effects, trust\n- **Washington Post (1973)**: Bought ~10% stake; befriended Katharine Graham; moat = local newspaper monopoly\n\n## Required Knowledge Points\n\n1. See's Candy: the acquisition, the insight about pricing power, specific numbers (25M price, 8M pretax, what happened to the brand)\n2. Coca-Cola: why Buffett bought (moat), how big the position became, what he has said in letters about it\n3. Apple: how Buffett justified it (not tech but consumer products), the ecosystem argument, size of position\n4. American Express: the Salad Oil scandal (1963-64) and why Buffett bought MORE during the crisis\n5. What Buffett has said about \"wonderful businesses at fair prices\" vs \"fair businesses at wonderful prices\"\n6. The Munger influence: specific quotes from Buffett about how Munger changed his thinking\n7. How these investments demonstrate the moat concept in practice\n\n## Output Format\n\nWrite to: `.library/custom/buffett-moat-cases/SKILL.md`\n\nStructure:\n```markdown\n---\nname: buffett-moat-cases\ndescription: Buffett's iconic moat investments — See's Candy, Coca-Cola, Apple, American Express — and the economic moat concept\nversion: 1.0\n---\n\n# Buffett's Moat Investment Cases\n\n## 1. [Section]\n\n## N. How to Discuss Moats as Buffett\n## References\n```\n\n## Collaboration\n\nWhen complete, notify parent agent (minimax_cn). Include file path confirmation.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "moat-cases",
+  "_mailbox_id": "904ed389-3d77-4132-b08b-b00914e197bd",
+  "received_at": "2026-04-26T04:33:44Z"
+}

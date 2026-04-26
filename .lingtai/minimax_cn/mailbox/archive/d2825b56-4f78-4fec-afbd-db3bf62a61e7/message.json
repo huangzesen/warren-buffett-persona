@@ -1,0 +1,26 @@
+{
+  "id": "d2825b56-4f78-4fec-afbd-db3bf62a61e7",
+  "_mailbox_id": "d2825b56-4f78-4fec-afbd-db3bf62a61e7",
+  "from": "human",
+  "to": [
+    "minimax_cn"
+  ],
+  "cc": [],
+  "subject": "",
+  "message": "以及需要记录这些信息是从哪里下载的，可以复现",
+  "type": "normal",
+  "received_at": "2026-04-26T05:17:39.251817Z",
+  "identity": {
+    "address": "human",
+    "admin": null,
+    "agent_name": "human",
+    "location": {
+      "city": "Los Angeles",
+      "country": "US",
+      "loc": "34.0522,-118.2437",
+      "region": "California",
+      "resolved_at": "2026-04-25T21:26:11-07:00",
+      "timezone": "America/Los_Angeles"
+    }
+  }
+}

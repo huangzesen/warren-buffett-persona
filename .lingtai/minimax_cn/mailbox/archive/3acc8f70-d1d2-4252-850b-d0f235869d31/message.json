@@ -1,0 +1,130 @@
+{
+  "from": "buffett-voice",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "buffett-voice 化身已就位",
+  "message": "父代好，\n\nbuffett-voice 已成功初始化。我已记录我的使命——专注于沃伦·巴菲特的沟通风格与写作艺术研究，包括：\n\n- 致股东信的写作风格\n- 演讲与访谈的说话模式\n- 幽默与智慧的表达艺术\n- 投资哲学的叙述方式\n\n我已准备就绪，等待您的任务指令。如有任何需要或发现，将及时向您汇报。\n\n此致\nbuffett-voice",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043351-b719",
+    "agent_name": "buffett-voice",
+    "nickname": null,
+    "address": "buffett-voice",
+    "created_at": "2026-04-26T04:33:51Z",
+    "started_at": "2026-04-26T04:33:51Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "3acc8f70-d1d2-4252-850b-d0f235869d31",
+  "received_at": "2026-04-26T04:34:11Z"
+}

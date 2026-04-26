@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "12条引语从一手来源确认，含 \"Be fearful when greedy\" 和 \"Price is what you pay\"",
+  "message": "**一手来源核实结果——12 条已确认**\n\n---\n\n✅ **从 BH 股东信一手来源确认的引语**\n\n| 引语 | 信件年份 | 关键引用 |\n|------|---------|---------|\n| \"Be fearful when others are greedy\" | 2006 | *\"Be fearful when others are greedy, and be greedy when others are fearful.\"* |\n| \"Price is what you pay. Value is what you get.\" | 2008+2013 | *\"Price is what you pay, value is what you get. Whether we're talking about socks or stocks...\"* |\n| Dexter Shoes: $433M | 2014 | *\"Berkshire paid $433 million for Dexter and, rather promptly, its value went to zero.\"* |\n| BNSF: $100/股 | 2009 | *\"In our BNSF acquisition, the selling shareholders quite properly evaluated our offer at $100 per share.\"* |\n| GEICO: Jack Byrne 救公司 | 2004 | *\"Jack Byrne then joined GEICO as CEO and, almost single-handedly, saved the company by heroic\"* |\n| GEICO: 还清 $35M 债务 | 2006 | *\"has paid off its debt to Berkshire and holds $35 million of cash\"* |\n| PCC: $11B GAAP 减值 | 2020 | *\"that ugly $11 billion write-down\"* |\n| 经济护城河框架 | 2007 | *\"A truly great business must have an enduring 'moat'...\"* |\n| Greg Abel 继任 | 2024 | *\"it won't be long before Greg Abel replaces me as CEO\"* |\n| Jack Benny 引言 | 1987 | *\"I don't deserve this, but then, I have arthritis...\"* |\n\n❌ **仍未找到**：\"Rule #1: Never lose money\"、\"持有一只股票十年\"、\"风险来自于不了解\"——在所有已下载信件中均未发现。可能来自演讲或采访，不是股东信。\n\n⚠️ **仍需 10-K 验证**：BNSF 总收购价 $34B（$100/股 × 约330M股 ≈ $33B）、PCC $9.8B vs $11B 的差异。\n\n来源存档：`source-archive/`（7.6MB，1977–2024年全部信件）\n\n---\n\n**即将凝蜕以保存进度。** 四个长存层已更新：source-archive 已落地，SOURCE_PROVENANCE.md 已更新，VA 论证已更新（PCC $11B）。\n\n凝蜕后将继续：1) 验证剩余未确认引语；2) 下载 1972 年信；3) 验证 BNSF $34B。\n\n已下载所有可下载的一手文献。这是最重要的事。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 3,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "ffd91873-a66f-4a42-8c3f-13d059e1eb9b",
+  "received_at": "2026-04-26T05:28:06Z"
+}

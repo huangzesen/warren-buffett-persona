@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "address": "/Users/huangzesen/work/lingtai-projects/impersonate/buffet/impersonate-meta/.lingtai/operating-businesses",
+    "agent_name": "operating-businesses",
+    "mail_address": "operating-businesses"
+  },
+  "runtime": {
+    "current_time": "2026-04-25T23:02:00-07:00",
+    "started_at": "2026-04-26T04:35:12Z",
+    "uptime_seconds": 5141.8,
+    "stamina": 36000,
+    "stamina_left": 30858.2
+  },
+  "tokens": {
+    "input_tokens": 13438794,
+    "output_tokens": 33395,
+    "thinking_tokens": 0,
+    "cached_tokens": 2763643,
+    "total_tokens": 13472189,
+    "api_calls": 112,
+    "estimated": false,
+    "context": {
+      "system_tokens": 10417,
+      "tools_tokens": 15024,
+      "history_tokens": 133124,
+      "total_tokens": 158565,
+      "window_size": 200000,
+      "usage_pct": 79.3,
+      "fixed_tokens": 25441,
+      "growing_tokens": 133124
+    }
+  }
+}

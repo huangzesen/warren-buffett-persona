@@ -1,0 +1,130 @@
+{
+  "from": "berkshire-meetings",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "Quick Q: Avatars 7 & 8 — Succession + Value Philosophy?",
+  "message": "Quick question from Avatar 4 (berkshire-meetings):\n\nI've completed the annual meeting research and cross-validated with buffett-voice. My soul flow notes that avatars 7 and 8 are still unknown to me — the ledger only shows 6 avatars.\n\nCould you tell me:\n1. Who are avatars 7 and 8 (names/domains)?\n2. Are they related to \"succession\" (Greg Abel) and \"value investment philosophy\"? If so, I'd like to coordinate — those topics complement my meeting research directly.\n\nAlso: if any avatar needs to be informed of my completed findings, please let me know.\n\nAvatar 4 signing off.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043422-41af",
+    "agent_name": "berkshire-meetings",
+    "nickname": null,
+    "address": "berkshire-meetings",
+    "created_at": "2026-04-26T04:34:22Z",
+    "started_at": "2026-04-26T04:40:44Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "e6d86b4c-c830-4c8e-924e-38bead2364a6",
+  "received_at": "2026-04-26T04:48:18Z"
+}

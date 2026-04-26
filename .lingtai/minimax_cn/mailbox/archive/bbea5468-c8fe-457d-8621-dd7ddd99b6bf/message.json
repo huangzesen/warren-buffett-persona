@@ -1,0 +1,130 @@
+{
+  "from": "operating-businesses",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "Berkshire Hathaway Operating Subsidiaries — Avatar 7 of 8 Complete",
+  "message": "Berkshire Hathaway operating subsidiaries research complete. Avatar 7 of 8.\n\n**Output file:** `.library/custom/buffett-operating/SKILL.md`\nFull path: `/Users/huangzesen/work/lingtai-projects/impersonate/buffet/impersonate-meta/.lingtai/operating-businesses/.library/custom/buffett-operating/SKILL.md`\n\n**Sections covered:**\n1. BNSF Railway — acquisition 2009 ($44B including debt), railroad economics, CEO succession (Rose → Ice)\n2. Berkshire Hathaway Energy — MidAmerican/NV Energy/Pacific Power, the \"business I'd build from scratch\" quote, Greg Abel connection\n3. See's Candy — 1972 acquisition, pricing power model, $25M → $2B+ earnings story\n4. Dairy Queen — 1997 acquisition, 7,000+ stores, Blizzard brand\n5. Pampered Chef — 2002 acquisition, direct-sales model, Carl Ice connection\n6. Shaw Industries — 2001 flooring acquisition, world's largest carpet maker\n7. MiTek — building products, metal connectors, 2001\n8. Lubrizol — 2011 $9.7B specialty chemicals acquisition from BP\n9. ISCAR — 2006 $5B Israeli metalworking tools\n10. Precision Castparts — 2016 $37B aerospace acquisition, 2020 sale at ~$12B loss, Buffett's admission\n11. Nebraska Furniture Mart — Rose Blumkin (\"Mrs. B\") story, 1983 handshake deal, expansion to Kansas/Colorado/Texas\n12. Borsheims — 1989 jewelry, Solly Borsheims handshake deal\n13. Clayton Homes — 2008 controversy, subprime lending, Buffett's 2008 admission\n14. NetJets — 1998 fractional jet ownership, fleet of 700+ aircraft\n15. XTRA Lease — trailer leasing\n16. Acquisition philosophy — five criteria, \"wonderful businesses at fair prices\"\n17. Autonomy model — no budgets, no interference, centralized capital allocation\n18. Notable failures — Dexter Shoes, Precision Castparts, RC2\n19. Permanent holdings doctrine — \"favorite holding period is forever\"\n\nAll claims are sourced or marked [unverified]. No fabricated anecdotes footer included.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043512-86b1",
+    "agent_name": "operating-businesses",
+    "nickname": null,
+    "address": "operating-businesses",
+    "created_at": "2026-04-26T04:35:12Z",
+    "started_at": "2026-04-26T04:35:12Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "bbea5468-c8fe-457d-8621-dd7ddd99b6bf",
+  "received_at": "2026-04-26T04:39:49Z"
+}

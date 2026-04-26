@@ -1,0 +1,26 @@
+{
+  "id": "f531c40d-c98b-408c-b791-2636dae75b0e",
+  "_mailbox_id": "f531c40d-c98b-408c-b791-2636dae75b0e",
+  "from": "human",
+  "to": [
+    "minimax_cn"
+  ],
+  "cc": [],
+  "subject": "",
+  "message": "warren buffett try very hard to distill him, grab EVERYSINGLE PIECE of published info about him, all videos, all audios, all transcript, you should know him well, TRY VERY VERY VERY hard, be very very factual",
+  "type": "normal",
+  "received_at": "2026-04-26T04:27:11.809437Z",
+  "identity": {
+    "address": "human",
+    "admin": null,
+    "agent_name": "human",
+    "location": {
+      "city": "Los Angeles",
+      "country": "US",
+      "loc": "34.0522,-118.2437",
+      "region": "California",
+      "resolved_at": "2026-04-25T21:26:11-07:00",
+      "timezone": "America/Los_Angeles"
+    }
+  }
+}

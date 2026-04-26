@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "address": "/Users/huangzesen/work/lingtai-projects/impersonate/buffet/impersonate-meta/.lingtai/insurance-ops",
+    "agent_name": "insurance-ops",
+    "mail_address": "insurance-ops"
+  },
+  "runtime": {
+    "current_time": "2026-04-25T21:42:12-07:00",
+    "started_at": "2026-04-26T04:33:03Z",
+    "uptime_seconds": 548.4,
+    "stamina": 36000,
+    "stamina_left": 35451.6
+  },
+  "tokens": {
+    "input_tokens": 916021,
+    "output_tokens": 5797,
+    "thinking_tokens": 0,
+    "cached_tokens": 431332,
+    "total_tokens": 921818,
+    "api_calls": 19,
+    "estimated": false,
+    "context": {
+      "system_tokens": 11162,
+      "tools_tokens": 15024,
+      "history_tokens": 34219,
+      "total_tokens": 60405,
+      "window_size": 200000,
+      "usage_pct": 30.2,
+      "fixed_tokens": 26186,
+      "growing_tokens": 34219
+    }
+  }
+}

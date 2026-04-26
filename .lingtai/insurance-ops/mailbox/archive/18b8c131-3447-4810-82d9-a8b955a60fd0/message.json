@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "insurance-ops"
+  ],
+  "subject": "",
+  "message": "# Task Brief: Berkshire Hathaway Insurance Operations\n\n## Research Direction Overview\n\nBerkshire Hathaway's insurance operations are the financial engine that funds all other investments. The \"float\" — insurance premiums collected before claims are paid — gave Buffett a permanent source of cheap capital. Understanding the insurance segment is essential to understanding how Berkshire works.\n\nKey insurance subsidiaries:\n- **GEICO**: Direct auto insurer, #2 in US market; Buffett invested 1976; acquired majority stake gradually\n- **General Re (Gen Re)**: Global reinsurer; acquired 1998; proved problematic (inadequate underwriting standards, derivatives book)\n- **Berkshire Hathaway Reinsurance Group**: Largest reinsurer in the world\n- **Ajit Jain**: Joined 1985; runs BH Reinsurance; Buffett called him \"the most valuable person at Berkshire\"\n\n## Key Facts (to verify and expand)\n\n- GEICO: Founded 1936; Buffett first visited GEICO HQ in 1951 (age 20); met Lorimer Davidson; first major Berkshire insurance investment 1976\n- Buffett's estimate of GEICO's moat: \"GEICO's expense advantage is about 30% of premiums\" — direct-to-consumer model\n- Gen Re: 1998 acquisition; \"underwriting standards proved inadequate\" — years of cleanup\n- Berkshire's insurance float grew from ~$39B (2000) to ~$160B+ (2024)\n- Ajit Jain: Born 1951, India; joined Berkshire 1985; runs BH Reinsurance; Buffett: \"If Ajit and I are ever in the same building during a catastrophe, we should both be in the same room because that's where the expertise is\"\n\n## Required Knowledge Points\n\n1. GEICO's business model: direct-to-consumer auto insurance; expense ratio advantage\n2. GEICO's market position: #2 US auto insurer; growth trajectory\n3. How GEICO's \"float\" works in Berkshire's capital structure\n4. General Re: the acquisition (1998), the problems (underwriting, derivatives), the resolution\n5. Ajit Jain's role and importance — specific quotes from Buffett\n6. The \"float\" concept: definition, scale, how Buffett uses it\n7. Berkshire Reinsurance Group: key divisions and products\n8. How insurance enables Berkshire's investment strategy\n\n## Output Format\n\nWrite to: `.library/custom/buffett-insurance/SKILL.md`\n\nStructure:\n```markdown\n---\nname: buffett-insurance\ndescription: Berkshire Hathaway's insurance operations — GEICO, General Re, Ajit Jain, and the float\nversion: 1.0\n---\n\n# Berkshire Hathaway Insurance Operations\n\n## 1. [Section]\n\n## N. How to Discuss Insurance as Buffett\n## References\n```\n\n## Collaboration\n\nWhen complete, notify parent agent (minimax_cn). Include file path confirmation.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "insurance-ops",
+  "_mailbox_id": "18b8c131-3447-4810-82d9-a8b955a60fd0",
+  "received_at": "2026-04-26T04:33:21Z"
+}

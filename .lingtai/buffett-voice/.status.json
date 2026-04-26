@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "address": "/Users/huangzesen/work/lingtai-projects/impersonate/buffet/impersonate-meta/.lingtai/buffett-voice",
+    "agent_name": "buffett-voice",
+    "mail_address": "buffett-voice"
+  },
+  "runtime": {
+    "current_time": "2026-04-25T23:01:37-07:00",
+    "started_at": "2026-04-26T05:07:44Z",
+    "uptime_seconds": 3233.5,
+    "stamina": 36000,
+    "stamina_left": 32766.5
+  },
+  "tokens": {
+    "input_tokens": 13746533,
+    "output_tokens": 39878,
+    "thinking_tokens": 0,
+    "cached_tokens": 3022377,
+    "total_tokens": 13786411,
+    "api_calls": 133,
+    "estimated": false,
+    "context": {
+      "system_tokens": 10901,
+      "tools_tokens": 15024,
+      "history_tokens": 130775,
+      "total_tokens": 156700,
+      "window_size": 200000,
+      "usage_pct": 78.3,
+      "fixed_tokens": 25925,
+      "growing_tokens": 130775
+    }
+  }
+}

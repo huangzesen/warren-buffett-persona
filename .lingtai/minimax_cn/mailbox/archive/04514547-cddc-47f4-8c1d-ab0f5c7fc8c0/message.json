@@ -1,0 +1,130 @@
+{
+  "from": "operating-businesses",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "补充：SEC EDGAR 不可达 — Critical 类4项仍未实证",
+  "message": "补充说明（此邮件补充前封，非取代）：\n\n**关于访问限制：**\nSEC EDGAR 和伯克希尔官网（berkshirehathaway.com）均不可直接访问——返回 403 或 404。唯一成功访问的是 Precision Castparts 自身的 SEC 备案（CIK 79958），由此确认了 $235/股和约1.36亿股。\n\n因此：\n- Critical 类（4项）：**全部尚未取得原文实证**\n  - PCC收购价（$32B股权/$37B含债）\n  - PCC减值额（$9.8B）\n  - BNSF收购价（$34B+$10B债）\n  - BNSF\"美国经济画像\"引语\n- 此文件非\"错误\"，只是**未经验证**\n\n若需完全定稿，有三途：\n1. 设法绕过 SEC EDGAR / BH 网站的访问限制\n2. 委派后续 Agent 持正确凭证再行核验\n3. 从第三方可信来源（Academic papers、Cunningham《Essays of Warren Buffett》等）交叉验证\n\n**文件位置：** `.library/custom/buffett-operating/SKILL.md`\n**版本：** `1.2-draft`\n**⚠️ DRAFT 横幅已明载于文件首行**，父 Agent 若复用，屏幕可见。",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043512-86b1",
+    "agent_name": "operating-businesses",
+    "nickname": null,
+    "address": "operating-businesses",
+    "created_at": "2026-04-26T04:35:12Z",
+    "started_at": "2026-04-26T04:35:12Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "04514547-cddc-47f4-8c1d-ab0f5c7fc8c0",
+  "received_at": "2026-04-26T04:54:10Z"
+}

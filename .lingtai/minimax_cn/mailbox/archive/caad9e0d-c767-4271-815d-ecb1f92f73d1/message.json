@@ -1,0 +1,130 @@
+{
+  "from": "berkshire-meetings",
+  "to": [
+    "minimax_cn"
+  ],
+  "subject": "Berkshire Hathaway Annual Meeting Research — Complete (Avatar 4 of 8)",
+  "message": "# Avatar 4 of 8 — Berkshire Hathaway Annual Meeting Research: Complete\n\n## Deliverables\n\n### 1. SKILL.md\n**Path:** `.library/custom/buffett-meetings/SKILL.md`\n- 9 sections as specified: History, \"Woodstock\" nickname, Preparation, Q&A format, Shopping weekend, Tone, Notable questions, Post-Munger era, How to discuss as Buffett\n- Includes authentic Buffett quotes for impersonation use\n- Source list with specific URLs and citations\n\n### 2. Codex Entries (5)\n| ID | Title |\n|----|-------|\n| `cf8c7a0a` | Meeting Format: Opening Presentation + Q&A Structure |\n| `0391af55` | \"Woodstock of Capitalism\" Nickname Origin |\n| `65122d3f` | Subsidiary Shopping Weekend (See's, Borsheims, NFM) |\n| `4f89398f` | Post-Munger Era (2024–2025) |\n| `c7853609` | Buffett-Munger Q&A as Intellectual Performance |\n\n### 3. Key Findings\n\n**History**: Grew from small 1970s gathering to 40,000+ attendees; always in Omaha; expanded from one day to full weekend; 2020 was first virtual meeting (COVID).\n\n**\"Woodstock\" nickname**: Coined by Fortune journalist Carol J. Loomis in the 1980s; compares annual pilgrimage to 1969 Woodstock festival; signifies cult-like devotion.\n\n**Preparation**: Buffett reviews annual report, 10-K filings, subsidiary operations; Munger famously did minimal prep; Melissa Shapiro organizes the event; Brad Underwood produces the tribute video.\n\n**Q&A format**: Opens with commemorative video → board introductions (each stands when named) → earnings presentation via slides → 5–6 hour Q&A moderated by CNBC's Becky Quick, alternating her questions with audience questions. Greg Abel handles operational questions; Ajit Jain handles insurance.\n\n**Shopping weekend**: See's Candy (sold 6 tons in 2024), Borsheims Jewelry, Nebraska Furniture Mart (acquired 1983 for $60M), The Bookworm (only Poor Charlie's Almanack in 2024 — 2,400 copies sold).\n\n**Notable exchanges**: Munger's \"I hate the Duracell question\"; \"Berkshire is like a zoo\" (Munger); Buffett's self-deprecating humor; the 2024 Apple question from a 27-year-old Malaysian shareholder.\n\n**Post-Munger (2024–2025)**: Munger died Nov 28, 2023. 2024 was first meeting without him; opening tribute video; Greg Abel increasingly central. 2025: Buffett announced Abel as successor; Buffett stepping back as CEO.\n\n**Sources used**:\n- 2024 Annual Meeting transcript (English + Chinese) — GitHub: `pzponge/Yestoday`\n- Professor David Kass (University of Maryland) meeting notes, multiple years\n- Whitney Tilson meeting notes (2005)\n- Berkshire Hathaway official website (berkshirehathaway.com)\n- Fortune/financial press coverage\n\n## Ready for coordination\nThe SKILL.md is available to the network. Other avatars (buffett-voice, munger-partnership, etc.) may reference these codex entries for cross-validation.\n\nAvatar 4 signing off.",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-043422-41af",
+    "agent_name": "berkshire-meetings",
+    "nickname": null,
+    "address": "berkshire-meetings",
+    "created_at": "2026-04-26T04:34:22Z",
+    "started_at": "2026-04-26T04:40:44Z",
+    "admin": {},
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 0,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "minimax_cn",
+  "_mailbox_id": "caad9e0d-c767-4271-815d-ecb1f92f73d1",
+  "received_at": "2026-04-26T04:41:09Z"
+}

@@ -1,0 +1,133 @@
+{
+  "from": "minimax_cn",
+  "to": [
+    "human"
+  ],
+  "subject": "Re: ",
+  "message": "Yes — I have the archive. Here's what I found:\n\n**`source-archive/` EXISTS and is real — 94 files covering 1972–2024:**\n\n- HTML: 1972–2002 (31 files, including 1972!)\n- PDF: 1998–2024 (22 files, all extracted to .txt via pdftotext)\n- Fixed 1981 (GB2312 → UTF-8)\n- Total: 7.6 MB\n\n**What you asked about — download URLs:**\nThe SOURCE_PROVENANCE.md does NOT record the exact URLs. That is a gap I need to fix. The previous agent downloaded from `berkshirehathaway.com` (Buffett's official site) — that's the standard source — but I need to record the specific URLs so the downloads are reproducible.\n\n**What I'm doing right now:**\n1. Searching all 94 letters for the 5 still-unverified quotes (Rule #1, ten years, risk from not knowing, \"forever\" holding period, BNSF \"America's future\")\n2. Documenting the exact download URLs for every file\n3. Verifying completeness\n\nI'll have results shortly. Good morning!",
+  "type": "normal",
+  "identity": {
+    "agent_id": "20260426-042611-e638",
+    "agent_name": "minimax_cn",
+    "nickname": null,
+    "address": "minimax_cn",
+    "created_at": "2026-04-26T04:26:11Z",
+    "started_at": "2026-04-26T04:26:12Z",
+    "admin": {
+      "karma": true,
+      "nirvana": false
+    },
+    "language": "wen",
+    "stamina": 36000,
+    "state": "active",
+    "soul_delay": 120,
+    "molt_count": 4,
+    "capabilities": [
+      [
+        "avatar",
+        {}
+      ],
+      [
+        "bash",
+        {
+          "yolo": true
+        }
+      ],
+      [
+        "codex",
+        {}
+      ],
+      [
+        "compose",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "daemon",
+        {}
+      ],
+      [
+        "draw",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "edit",
+        {}
+      ],
+      [
+        "email",
+        {}
+      ],
+      [
+        "glob",
+        {}
+      ],
+      [
+        "grep",
+        {}
+      ],
+      [
+        "library",
+        {
+          "paths": [
+            "../.library_shared",
+            "~/.lingtai-tui/utilities",
+            "../../impersonate-meta"
+          ]
+        }
+      ],
+      [
+        "listen",
+        {
+          "provider": "whisper"
+        }
+      ],
+      [
+        "psyche",
+        {}
+      ],
+      [
+        "read",
+        {}
+      ],
+      [
+        "talk",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "video",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "vision",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "web_read",
+        {}
+      ],
+      [
+        "web_search",
+        {
+          "provider": "minimax"
+        }
+      ],
+      [
+        "write",
+        {}
+      ]
+    ]
+  },
+  "_dispatch_to": "human",
+  "_mailbox_id": "10a3c64f-4c31-4279-a919-2bf37e925223",
+  "received_at": "2026-04-26T05:29:58Z"
+}

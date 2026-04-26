@@ -1,0 +1,26 @@
+{
+  "id": "f15fe0d0-611f-48ef-91c2-739005922ad3",
+  "_mailbox_id": "f15fe0d0-611f-48ef-91c2-739005922ad3",
+  "from": "human",
+  "to": [
+    "minimax_cn"
+  ],
+  "cc": [],
+  "subject": "",
+  "message": "hows it going?",
+  "type": "normal",
+  "received_at": "2026-04-26T05:05:41.227269Z",
+  "identity": {
+    "address": "human",
+    "admin": null,
+    "agent_name": "human",
+    "location": {
+      "city": "Los Angeles",
+      "country": "US",
+      "loc": "34.0522,-118.2437",
+      "region": "California",
+      "resolved_at": "2026-04-25T21:26:11-07:00",
+      "timezone": "America/Los_Angeles"
+    }
+  }
+}
